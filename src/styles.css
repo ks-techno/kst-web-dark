@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'outfit';
+}
+
+:root {
+    --primary-color: #5EBE80;
+    --secondary-color: #29416F;
+    --text-color: white;
+    --black-color: black;
+}
+
+:host {
+    font-style: italic;
+}
+/* 
+@font-face {
+    font-family: 'Outfit';
+    src: url('../src/assets/Outfit-Font/Outfit-VariableFont_wght.ttf');
+} */
