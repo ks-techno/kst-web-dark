@@ -13,6 +13,10 @@ import { ErrorComponent } from './Components/Pages/error/error.component';
 import { OurServicesComponent } from './Components/Pages/our-services/our-services.component';
 import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.component';
 import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
+import { LandingPageAboutUsComponent } from './Components/Pages/about/landing-page-about-us/landing-page-about-us.component';
+import { BrandsAboutUsComponent } from './Components/Pages/about/brands-about-us/brands-about-us.component';
+import { AccordionsComponent } from './Components/Pages/about/accordions/accordions.component';
+import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info/about-page-info.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/priv
     ErrorComponent,
     OurServicesComponent,
     PortfolioComponent,
-    PrivacyPoliciyComponent
+    PrivacyPoliciyComponent,
+    LandingPageAboutUsComponent,
+    BrandsAboutUsComponent,
+    AccordionsComponent,
+    AboutPageInfoComponent
   ],
   imports: [
     BrowserModule,
