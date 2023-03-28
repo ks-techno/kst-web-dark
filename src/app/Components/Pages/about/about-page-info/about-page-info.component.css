@@ -1,0 +1,68 @@
+.text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    margin-top: 30px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+a {
+    color: #29416F;
+    font-size: 20px;
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .class-text {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    p {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .class-text {
+        font-size: 31px;
+        margin-left: 25px;
+    }
+
+    p {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .class-text {
+        font-size: 37px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}

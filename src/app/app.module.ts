@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './Components/Main-Dashboard/dashboard/dashboard.component';
@@ -13,7 +13,10 @@ import { ErrorComponent } from './Components/Pages/error/error.component';
 import { OurServicesComponent } from './Components/Pages/our-services/our-services.component';
 import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.component';
 import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LandingPageAboutUsComponent } from './Components/Pages/about/landing-page-about-us/landing-page-about-us.component';
+import { BrandsAboutUsComponent } from './Components/Pages/about/brands-about-us/brands-about-us.component';
+import { AccordionsComponent } from './Components/Pages/about/accordions/accordions.component';
+import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info/about-page-info.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ErrorComponent,
     OurServicesComponent,
     PortfolioComponent,
-    PrivacyPoliciyComponent
+    PrivacyPoliciyComponent,
+    LandingPageAboutUsComponent,
+    BrandsAboutUsComponent,
+    AccordionsComponent,
+    AboutPageInfoComponent
   ],
   imports: [
     BrowserModule,
