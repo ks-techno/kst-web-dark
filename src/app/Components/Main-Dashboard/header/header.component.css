@@ -1,0 +1,119 @@
+.navbar-brand img {
+    /* position: relative; */
+    height: 79px;
+    width: 98px;
+    left: 150px;
+    top: 11px;
+
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.nav-item {
+    margin: 5px !important;
+}
+
+.nav-link.active.active-link {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    width: 150px;
+    top: 26px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .btn-primary {
+        width: 70px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .navbar-brand img {
+        width: 80px;
+        height: 70px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .btn-primary {
+        width: 70px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .navbar-brand img {
+        width: 80px;
+        height: 70px;
+        margin-left: 38px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .btn-primary {
+        width: 70px;
+        height: 50px;
+        font-size: 11px;
+    }
+
+    .navbar-brand img {
+        width: 90px;
+        height: 80px;
+        margin-left: 48px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    .navbar-brand img {
+        width: 90px;
+        height: 80px;
+        margin-left: 58px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+    .navbar-brand img {
+        width: 90px;
+        height: 80px;
+        margin-left: 58px;
+    }
+}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {
+    .navbar-brand img {
+        width: 90px;
+        height: 80px;
+        margin-left: 65px;
+    }
+}
