@@ -1,10 +1,8 @@
 .navbar-brand img {
-    /* position: relative; */
     height: 79px;
     width: 98px;
     left: 150px;
     top: 11px;
-
 }
 
 .navbar-nav {
@@ -15,8 +13,12 @@
     overflow: hidden;
     font-weight: 500;
 }
+.nav-link.active{
+    color: aliceblue;
+}
 
-.nav-item {
+.nav-item.a{
+    color: aliceblue;
     margin: 5px !important;
 }
 
@@ -25,24 +27,6 @@
     font-weight: bold;
 }
 
-.btn-primary {
-    background-color: var(--secondary-color);
-    color: var(--text-color);
-    width: 150px;
-    top: 26px;
-    border-radius: 8px;
-    padding: 10px 10px 10px 10px;
-    font-weight: 550;
-    text-transform: capitalize;
-}
-
-.btn-primary:hover {
-    background-color: var(--primary-color);
-    color: var(--text-color);
-}
-
-
-/* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
     .btn-primary {
         width: 70px;

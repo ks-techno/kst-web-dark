@@ -13,6 +13,7 @@ import { ErrorComponent } from './Components/Pages/error/error.component';
 import { OurServicesComponent } from './Components/Pages/our-services/our-services.component';
 import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.component';
 import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/priv
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
