@@ -1,0 +1,19 @@
+.container-fluid {
+    background-color: var(--secondary-color);
+    padding: 55px;
+    overflow: hidden;
+}
+
+.row {
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 76px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+h5 {
+    background-color: var(--secondary-color);
+}

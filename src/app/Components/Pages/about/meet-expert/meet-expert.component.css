@@ -1,0 +1,61 @@
+.text {
+    opacity: 0.8;
+    background-color: var(--secondary-color);
+    /* position: absolute; */
+    position: relative;
+    width: 100%;
+    /* top: 260px; */
+    border-radius: 6px;
+}
+
+h5 {
+    color: var(--text-color);
+}
+
+.text h6 {
+    color: var(--text-color);
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    h5{
+        font-size: 15px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    h3 {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}

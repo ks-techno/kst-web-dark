@@ -19,29 +19,43 @@ a {
     color: #29416F;
     font-size: 20px;
 }
+.container{
+    /* background-color: black; */
+}
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
-    .class-text {
+    .text {
         font-size: 25px;
         margin-left: 20px;
     }
 
     p {
         margin-left: 20px;
-        font-size: 14px;
+        font-size: 12px;
     }
+
+    a {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
 }
 
 
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
-    .class-text {
-        font-size: 31px;
+    .text {
         margin-left: 25px;
+        font-size: 29px;
     }
 
     p {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+
+    a {
         margin-left: 25px;
         font-size: 15px;
     }
@@ -50,8 +64,19 @@ a {
 
 /* For medium */
 @media only screen and (min-width:577px) and (max-width: 768px) {
-    .class-text {
-        font-size: 37px;
+    .text {
+        margin-left: 25px;
+        font-size: 29px;
+    }
+
+    p {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+
+    a {
+        margin-left: 25px;
+        font-size: 15px;
     }
 }
 

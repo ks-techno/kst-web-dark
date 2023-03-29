@@ -1,6 +1,6 @@
 .container-fluid {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
     min-height: 95vh !important;
     align-items: center;
@@ -11,56 +11,60 @@
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 35px;
-    color: white;
+    color: var(--text-color);
+    margin-left: 20px;
 }
 
 h6 {
-    color: white;
+    color: var(--text-color);
     font-size: 15px;
+    margin-left: 20px;
 }
 
 .btn-secondary {
-    border: 1px solid #ffffff !important;
+    border: 2px solid #ffffff !important;
     background-color: transparent;
-    color: white;
+    color: var(--text-color);
     border-radius: 10px 100px / 120px;
     padding: 10px;
     width: 22%;
-    border: none !important;
+    margin-left: 20px;
 }
 
 .btn-secondary:hover {
-    background-color: #5EBE80;
-    color: #F2F2F2;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 
 }
 
+.float-end {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .float-end {
+        max-width: 50%;
+    }
+}
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
     h1 {
-        font-size: 20px;
+        font-size: 15px !important;
     }
 
     h6 {
-        font-size: 12px;
-    }
-
-    .btn-primary {
-        width: 50px;
-        height: 40px;
-        margin: 0px !important;
-        font-size: 10px;
+        font-size: 8px !important;
     }
 
     .btn-secondary {
         width: 50px;
         height: 40px;
         margin: 0px !important;
-        font-size: 10px;
-        margin-left: 5px !important;
+        font-size: 8px;
+        margin-left: 28px !important;
     }
 
     .container-fluid {
@@ -76,22 +80,15 @@ h6 {
     }
 
     h6 {
-        font-size: 13px;
-    }
-
-    .btn-primary {
-        width: 50px;
-        height: 40px;
-        margin: 0px !important;
-        font-size: 10px;
+        font-size: 11px !important;
     }
 
     .btn-secondary {
         width: 50px;
         height: 40px;
         margin: 0px !important;
-        font-size: 10px;
-        margin-left: 5px !important;
+        font-size: 8px;
+        margin-left: 28px !important;
     }
 
     .container-fluid {
@@ -106,17 +103,15 @@ h6 {
         font-size: 23px;
     }
 
-    .btn-primary {
-        width: 100px;
-        margin: 0px !important;
-        font-size: 13px;
+    h6 {
+        font-size: 11px !important;
     }
 
     .btn-secondary {
         width: 100px;
         margin: 0px !important;
         font-size: 13px;
-        margin-left: 5px !important;
+        margin-left: 28px !important;
     }
 
     .container-fluid {
@@ -128,8 +123,15 @@ h6 {
 /* For Large*/
 @media only screen and (min-width:769px) and (max-width: 1039px) {
 
-    .container-fluid {
+    /* .container-fluid {
         min-height: 75vh !important;
+    } */
+    h1 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 13px !important;
     }
 }
 
