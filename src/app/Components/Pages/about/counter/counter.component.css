@@ -1,5 +1,5 @@
 .container-fluid {
-    background-color: #29416F;
+    background-color: var(--secondary-color);
     padding: 55px;
     overflow: hidden;
 }
@@ -14,12 +14,6 @@
     color: #FFFFFF;
 }
 
-/* .row .col-md-3 {
-    align-items: center;
+h5 {
+    background-color: var(--secondary-color);
 }
-
-
-.row .col-md-3 img {
-   width: 55px;
-    margin-right: 20px;
-} */
