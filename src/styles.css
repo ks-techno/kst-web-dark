@@ -1,11 +1,10 @@
 *{
     font-family: 'outfit';
-    background-color: #258181;
 }
 
 :root {
     --primary-color: #5EBE80;
-    --secondary-color: #29416F;
+    --secondary-color: #053061;
     --text-color: white;
     --black-color: black;
 }

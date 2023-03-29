@@ -1,8 +1,7 @@
 .container-fluid {
-    background-color: #053061;
+    background-color: var(--secondary-color);
     padding: 35px;
     overflow: hidden;
-    
 }
 
 .row {
