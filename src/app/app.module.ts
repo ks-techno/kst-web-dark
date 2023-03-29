@@ -17,6 +17,8 @@ import { LandingPageAboutUsComponent } from './Components/Pages/about/landing-pa
 import { BrandsAboutUsComponent } from './Components/Pages/about/brands-about-us/brands-about-us.component';
 import { AccordionsComponent } from './Components/Pages/about/accordions/accordions.component';
 import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info/about-page-info.component';
+import { CounterComponent } from './Components/Pages/about/counter/counter.component';
+import { MeetExpertComponent } from './Components/Pages/about/meet-expert/meet-expert.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info
     LandingPageAboutUsComponent,
     BrandsAboutUsComponent,
     AccordionsComponent,
-    AboutPageInfoComponent
+    AboutPageInfoComponent,
+    CounterComponent,
+    MeetExpertComponent
   ],
   imports: [
     BrowserModule,

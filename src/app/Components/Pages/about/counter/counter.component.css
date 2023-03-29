@@ -1,0 +1,25 @@
+.container-fluid {
+    background-color: #29416F;
+    padding: 55px;
+    overflow: hidden;
+}
+
+.row {
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 76px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+/* .row .col-md-3 {
+    align-items: center;
+}
+
+
+.row .col-md-3 img {
+   width: 55px;
+    margin-right: 20px;
+} */
