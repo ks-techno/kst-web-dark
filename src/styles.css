@@ -1,9 +1,10 @@
 *{
     font-family: 'outfit';
-    background-color: #258181;
 }
 
 :root {
+    --backgorund-image: url(./assets/Common/gridBackground.png);
+    --background-color: #000112;
     --primary-color: #5EBE80;
     --secondary-color: #29416F;
     --text-color: white;
