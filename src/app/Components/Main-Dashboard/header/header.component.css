@@ -1,9 +1,19 @@
-.navbar-brand img {
-    height: 79px;
-    width: 98px;
-    left: 150px;
-    top: 11px;
+.container-fluid.main{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../../assets/About-us-images/landingImageaboutUs.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
+
+.navbar-brand img .img-fluid{
+    height: 70px;
+    width: 60px;
+    margin-left: 150px;
+    margin-top: 11px;
+}
+
 
 .navbar-nav {
     display: flex;
@@ -11,14 +21,15 @@
     align-items: center;
     width: 100%;
     overflow: hidden;
-    font-weight: 500;
-}
-.nav-link.active{
-    color: aliceblue;
 }
 
-.nav-item.a{
-    color: aliceblue;
+.navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color);
+}
+  
+.nav-item{
     margin: 5px !important;
 }
 
@@ -26,7 +37,41 @@
     color: var(--primary-color);
     font-weight: bold;
 }
+.container-fluid.mt-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 95vh !important;
+    align-items: center;
+    overflow: hidden;
+}
 
+h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+}
+
+h6 {
+    color: white;
+    font-size: 15px;
+}
+
+.btn-secondary {
+    border: 1px solid #ffffff !important;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px 100px / 120px;
+    padding: 10px;
+    width: 22%;
+    border: none !important;
+}
+
+.btn-secondary:hover {
+    background-color: #5EBE80;
+    color: #F2F2F2;
+
+}
 @media only screen and (min-width:200px) and (max-width:400px) {
     .btn-primary {
         width: 70px;
@@ -40,8 +85,6 @@
     }
 }
 
-
-/* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
     .btn-primary {
         width: 70px;
@@ -56,8 +99,6 @@
     }
 }
 
-
-/* For medium */
 @media only screen and (min-width:577px) and (max-width: 768px) {
     .btn-primary {
         width: 70px;
@@ -72,8 +113,6 @@
     }
 }
 
-
-/* For Large*/
 @media only screen and (min-width:769px) and (max-width: 1039px) {
     .navbar-brand img {
         width: 90px;
@@ -82,8 +121,6 @@
     }
 }
 
-
-/* For x-Large*/
 @media only screen and (min-width:1040px) and (max-width: 1700px) {
     .navbar-brand img {
         width: 90px;
@@ -91,13 +128,11 @@
         margin-left: 58px;
     }
 }
-
-
-/* For x-x-Large*/
+/* 
 @media only screen and (min-width:1700px) and (max-width: 2200px) {
     .navbar-brand img {
         width: 90px;
         height: 80px;
         margin-left: 65px;
     }
-}
+} */
