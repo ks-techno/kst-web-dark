@@ -29,11 +29,14 @@ const routes: Routes = [
     component: OurServicesComponent,
     path: "our-service"
   },
-  // { path: '**', component: ErrorComponent }
+ { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{
+    scrollPositionRestoration: 'top',
+    anchorScrolling: 'enabled',
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

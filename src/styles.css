@@ -3,6 +3,8 @@
 }
 
 :root {
+    --backgorund-image: url(./assets/Common/gridBackground.png);
+    --background-color: #000112;
     --primary-color: #5EBE80;
     --secondary-color: #053061;
     --text-color: white;
