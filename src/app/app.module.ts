@@ -19,6 +19,7 @@ import { AccordionsComponent } from './Components/Pages/about/accordions/accordi
 import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info/about-page-info.component';
 import { CounterComponent } from './Components/Pages/about/counter/counter.component';
 import { MeetExpertComponent } from './Components/Pages/about/meet-expert/meet-expert.component';
+import { ServicesLandingPageComponent } from './Components/Pages/our-services/services-landing-page/services-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MeetExpertComponent } from './Components/Pages/about/meet-expert/meet-e
     AccordionsComponent,
     AboutPageInfoComponent,
     CounterComponent,
-    MeetExpertComponent
+    MeetExpertComponent,
+    ServicesLandingPageComponent
   ],
   imports: [
     BrowserModule,
