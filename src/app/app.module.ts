@@ -13,13 +13,14 @@ import { ErrorComponent } from './Components/Pages/error/error.component';
 import { OurServicesComponent } from './Components/Pages/our-services/our-services.component';
 import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.component';
 import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
-import { LandingPageAboutUsComponent } from './Components/Pages/about/landing-page-about-us/landing-page-about-us.component';
 import { BrandsAboutUsComponent } from './Components/Pages/about/brands-about-us/brands-about-us.component';
 import { AccordionsComponent } from './Components/Pages/about/accordions/accordions.component';
 import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info/about-page-info.component';
 import { CounterComponent } from './Components/Pages/about/counter/counter.component';
 import { MeetExpertComponent } from './Components/Pages/about/meet-expert/meet-expert.component';
-import { ServicesLandingPageComponent } from './Components/Pages/our-services/services-landing-page/services-landing-page.component';
+import { LandingPageComponent } from './Components/CommonComponents/Landing-Page/landing-page/landing-page.component';
+import { NewsLetterComponent } from './Components/CommonComponents/News-Letter/news-letter/news-letter.component';
+import { BrandsComponent } from './Components/CommonComponents/Brand-Logos/brands/brands.component';
 import { ServiceForClientsComponent } from './Components/Pages/our-services/service-for-clients/service-for-clients.component';
 import { NewsletterComponent } from './Components/Pages/our-services/newsletter/newsletter.component';
 
@@ -37,13 +38,14 @@ import { NewsletterComponent } from './Components/Pages/our-services/newsletter/
     OurServicesComponent,
     PortfolioComponent,
     PrivacyPoliciyComponent,
-    LandingPageAboutUsComponent,
     BrandsAboutUsComponent,
     AccordionsComponent,
     AboutPageInfoComponent,
     CounterComponent,
     MeetExpertComponent,
-    ServicesLandingPageComponent,
+    LandingPageComponent,
+    NewsLetterComponent,
+    BrandsComponent,
     ServiceForClientsComponent,
     NewsletterComponent,
     
