@@ -1,0 +1,133 @@
+.container-fluid {
+    margin-top: 10%;
+    margin-bottom: 70px;
+}
+
+.col-5 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 10;
+    border: none;
+    background-color: transparent;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 40px;
+    font-family: 'Outfit';
+    color: var(--primary-color);
+}
+
+.card-subtitle {
+    margin-top: 20px;
+    color: var(--text-color);
+    margin-left: 40px;
+    font-family: 'Outfit';
+    font-size: 18px;
+}
+
+.btn-secondary {
+    margin-top: 10px;
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--text-color);
+    margin-left: 40px;
+    border-radius: 10px 100px / 120px;
+    padding: 10px;
+    width: 190px;
+}
+
+.btn-secondary:hover {
+    border: 2px solid var(--text-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+}
+
+.float-center {
+
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    .float-center {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .card-title {
+        font-size: 15px !important;
+        margin-left: 0%;
+
+    }
+
+    .card-subtitle {
+        font-size: 8px !important;
+        margin-left: 0%;
+
+    }
+
+    .btn-secondary {
+        width: 90px;
+        height: 30px;
+        padding: 0%;
+        font-size: 8px;
+        margin-left: 0%;
+    }
+}
+
+
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .card-title {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .card-subtitle {
+        font-size: 11px !important;
+        margin-left: 10px;
+    }
+
+    .btn-secondary {
+        width: 110px;
+        height: 40px;
+        font-size: 8px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width: 768px) {
+
+    .card-title {
+        font-size: 23px;
+        margin-left: 28px !important;
+    }
+
+    .card-subtitle {
+        font-size: 11px !important;
+        margin-left: 28px !important;
+    }
+
+
+    .btn-secondary {
+        width: 140px;
+        font-size: 13px;
+        margin-left: 28px !important;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-subtitle {
+        font-size: 13px !important;
+    }
+}

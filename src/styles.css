@@ -8,7 +8,8 @@
     --primary-color: #5EBE80;
     --secondary-color: #053061;
     --text-color: white;
-    --black-color: black;
+    --secondary-text-color: black;
+    --navbar-btn-color: #458b5e;
 }
 
 :host {
