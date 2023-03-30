@@ -1,0 +1,175 @@
+.row.mt-4 .col {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: var(--primary-color);
+    margin-top: 50px;
+}
+
+.row .col {
+    height: 46px;
+    width: 496px;
+    font-weight: 600;
+    line-height: 46px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.input-group {
+
+    width: 45%;
+    margin-left: 100px;
+    border-color: #000000;
+
+}
+
+.btn-primary {
+    border: none;
+    background: var(--secondary-color);
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+}
+
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+
+    h5 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        width: 67px;
+        height: 39px;
+        font-size: 10px;
+
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    h5 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .btn-primary {
+        width: 72px;
+        height: 43px;
+        font-size: 12px;
+    }
+
+    .input-group {
+        margin: auto;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    h5 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn-primary {
+        width: 79px;
+        height: 46px;
+        font-size: 14px;
+    }
+
+    .input-group {
+        margin: auto;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    h5 {
+        font-size: 19px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .btn-primary {
+        width: 79px;
+        height: 46px;
+        font-size: 14px;
+    }
+
+    .input-group {
+        margin: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .row.mt-4 {
+        justify-content: center;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+    h5 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    .btn-primary {
+        width: 99px;
+        height: 46px;
+        font-size: 15px;
+    }
+
+    .input-group {
+        margin: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .row.mt-4 {
+        justify-content: center;
+    }
+}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {
+    .input-group {
+        margin: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .row.mt-4 {
+        justify-content: center;
+    }
+}
