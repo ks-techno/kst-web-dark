@@ -19,9 +19,6 @@ a {
     color: #29416F;
     font-size: 20px;
 }
-.container{
-    /* background-color: black; */
-}
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {

@@ -9,4 +9,5 @@ export class FooterComponent {
   getCurrentYear(): number {
     return new Date().getFullYear();
   }
+ 
 }

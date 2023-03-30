@@ -21,6 +21,9 @@ import { MeetExpertComponent } from './Components/Pages/about/meet-expert/meet-e
 import { LandingPageComponent } from './Components/CommonComponents/Landing-Page/landing-page/landing-page.component';
 import { NewsLetterComponent } from './Components/CommonComponents/News-Letter/news-letter/news-letter.component';
 import { BrandsComponent } from './Components/CommonComponents/Brand-Logos/brands/brands.component';
+import { ServiceForClientsComponent } from './Components/Pages/our-services/service-for-clients/service-for-clients.component';
+import { NewsletterComponent } from './Components/Pages/our-services/newsletter/newsletter.component';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { BrandsComponent } from './Components/CommonComponents/Brand-Logos/brand
     MeetExpertComponent,
     LandingPageComponent,
     NewsLetterComponent,
-    BrandsComponent
+    BrandsComponent,
+    ServiceForClientsComponent,
+    NewsletterComponent,
+    
   ],
   imports: [
     BrowserModule,
