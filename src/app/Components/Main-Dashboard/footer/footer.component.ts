@@ -7,6 +7,9 @@ import { faHouse,faInfoCircle,faBriefcase,faNewspaper,faPenRuler,faPhone,faMagni
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
+  getCurrentYear(): number {
+    return new Date().getFullYear();
+  }
   home = faHouse;
   aboutus = faInfoCircle;
   services = faBriefcase
