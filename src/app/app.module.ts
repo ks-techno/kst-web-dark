@@ -20,6 +20,9 @@ import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info
 import { CounterComponent } from './Components/Pages/about/counter/counter.component';
 import { MeetExpertComponent } from './Components/Pages/about/meet-expert/meet-expert.component';
 import { ServicesLandingPageComponent } from './Components/Pages/our-services/services-landing-page/services-landing-page.component';
+import { ServiceForClientsComponent } from './Components/Pages/our-services/service-for-clients/service-for-clients.component';
+import { NewsletterComponent } from './Components/Pages/our-services/newsletter/newsletter.component';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { ServicesLandingPageComponent } from './Components/Pages/our-services/se
     AboutPageInfoComponent,
     CounterComponent,
     MeetExpertComponent,
-    ServicesLandingPageComponent
+    ServicesLandingPageComponent,
+    ServiceForClientsComponent,
+    NewsletterComponent,
+    
   ],
   imports: [
     BrowserModule,
