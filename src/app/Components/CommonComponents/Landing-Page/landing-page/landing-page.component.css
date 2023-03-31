@@ -33,6 +33,7 @@
 
 .btn-secondary {
     margin-top: 10px;
+    font-weight: 500;
     border: 2px solid var(--primary-color);
     background-color: transparent;
     color: var(--text-color);
@@ -45,6 +46,7 @@
 }
 
 .btn-secondary:hover {
+    font-weight: 800;
     border: 2px solid var(--text-color);
     background-color: var(--primary-color);
     color: var(--secondary-text-color);

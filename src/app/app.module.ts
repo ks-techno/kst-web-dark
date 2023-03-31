@@ -23,6 +23,7 @@ import { NewsLetterComponent } from './Components/CommonComponents/News-Letter/n
 import { BrandsComponent } from './Components/CommonComponents/Brand-Logos/brands/brands.component';
 import { ServiceForClientsComponent } from './Components/Pages/our-services/service-for-clients/service-for-clients.component';
 import { NewsletterComponent } from './Components/Pages/our-services/newsletter/newsletter.component';
+import { BackToTopComponent } from './Components/CommonComponents/back-to-top/back-to-top.component';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { NewsletterComponent } from './Components/Pages/our-services/newsletter/
     BrandsComponent,
     ServiceForClientsComponent,
     NewsletterComponent,
+    BackToTopComponent,
     
   ],
   imports: [
