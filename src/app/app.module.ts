@@ -13,7 +13,6 @@ import { ErrorComponent } from './Components/Pages/error/error.component';
 import { OurServicesComponent } from './Components/Pages/our-services/our-services.component';
 import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.component';
 import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
-import { BrandsAboutUsComponent } from './Components/Pages/about/brands-about-us/brands-about-us.component';
 import { AccordionsComponent } from './Components/Pages/about/accordions/accordions.component';
 import { AboutPageInfoComponent } from './Components/Pages/about/about-page-info/about-page-info.component';
 import { CounterComponent } from './Components/Pages/about/counter/counter.component';
@@ -24,6 +23,7 @@ import { BrandsComponent } from './Components/CommonComponents/Brand-Logos/brand
 import { ServiceForClientsComponent } from './Components/Pages/our-services/service-for-clients/service-for-clients.component';
 import { NewsletterComponent } from './Components/Pages/our-services/newsletter/newsletter.component';
 import { BackToTopComponent } from './Components/CommonComponents/back-to-top/back-to-top.component';
+import { CaroselComponent } from './Components/CommonComponents/carosel/carosel.component';
 
 
 @NgModule({
@@ -39,7 +39,6 @@ import { BackToTopComponent } from './Components/CommonComponents/back-to-top/ba
     OurServicesComponent,
     PortfolioComponent,
     PrivacyPoliciyComponent,
-    BrandsAboutUsComponent,
     AccordionsComponent,
     AboutPageInfoComponent,
     CounterComponent,
@@ -50,6 +49,7 @@ import { BackToTopComponent } from './Components/CommonComponents/back-to-top/ba
     ServiceForClientsComponent,
     NewsletterComponent,
     BackToTopComponent,
+    CaroselComponent,
     
   ],
   imports: [
