@@ -1,0 +1,20 @@
+#back-to-top-btn {
+    color: var(--text-color);
+    border: none;
+    background-color: var(--primary-color);
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    transition: 0.5s;
+}
+#back-to-top-btn:hover{
+    border: 2px solid var(--text-color);
+    transition: 0.5s;
+    box-shadow: var(--btn-shadow-hover);
+}
+
+#back-to-top-btn.active {
+    display: block;
+}

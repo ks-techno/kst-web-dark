@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BrandsAboutUsComponent } from './brands-about-us.component';
+import { BackToTopComponent } from './back-to-top.component';
 
-describe('BrandsAboutUsComponent', () => {
-  let component: BrandsAboutUsComponent;
-  let fixture: ComponentFixture<BrandsAboutUsComponent>;
+describe('BackToTopComponent', () => {
+  let component: BackToTopComponent;
+  let fixture: ComponentFixture<BackToTopComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BrandsAboutUsComponent ]
+      declarations: [ BackToTopComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BrandsAboutUsComponent);
+    fixture = TestBed.createComponent(BackToTopComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
