@@ -24,7 +24,9 @@ import { ServiceForClientsComponent } from './Components/Pages/our-services/serv
 import { NewsletterComponent } from './Components/Pages/our-services/newsletter/newsletter.component';
 import { BackToTopComponent } from './Components/CommonComponents/back-to-top/back-to-top.component';
 import { CaroselComponent } from './Components/CommonComponents/carosel/carosel.component';
-
+import { ContactUsFormPageComponent } from './Components/Pages/contact/contact-us-form-page/contact-us-form-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CardAboutUsComponent } from './Components/Pages/home/card-about-us/card-about-us.component';
 
 @NgModule({
   declarations: [
@@ -50,9 +52,12 @@ import { CaroselComponent } from './Components/CommonComponents/carosel/carosel.
     NewsletterComponent,
     BackToTopComponent,
     CaroselComponent,
+    ContactUsFormPageComponent,
+    CardAboutUsComponent,
     
   ],
   imports: [
+    ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule
