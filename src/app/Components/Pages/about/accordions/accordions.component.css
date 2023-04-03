@@ -1,3 +1,14 @@
+.container-fluid {
+    /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
+    background-color: #000112;
+    padding: 25px;
+}
+
+.accordion-button {
+    background-color: #000112 !important;
+    color: #5EBE80;
+}
+
 .accordion-button::after {
     font-style: normal;
     font-weight: 600;
@@ -13,14 +24,17 @@
 }
 
 .accordion-body {
+    background-color: #000112;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.5px;
+    color: white;
 }
 
 .accordion-item {
+    background-color: #000112 !important;
     border: none;
     font-style: normal;
     font-weight: 600;

@@ -7,18 +7,33 @@
     /* top: 260px; */
     /* border-radius: 6px; */
 }
-.card{
+
+.card {
     margin-top: 12px;
+    background-color: #000112;
+    padding: 15px;
 }
+
 h5 {
     color: var(--text-color);
     margin-top: 5px;
     margin-left: 8px;
 }
 
+.text-center {
+
+    color: var(--text-color);
+}
+
 .text h6 {
     color: var(--text-color);
     margin-left: 8px;
+}
+
+.container-fluid {
+    /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
+    background-color: #000112;
+    padding: 25px;
 }
 
 /* For x-small */
@@ -27,7 +42,8 @@ h5 {
         font-size: 15px;
         font-weight: 600;
     }
-    h5{
+
+    h5 {
         font-size: 15px;
     }
 
@@ -51,13 +67,20 @@ h5 {
 
 
 /* For medium */
-@media only screen and (min-width:577px) and (max-width: 768px) {
-  
-}
+@media only screen and (min-width:577px) and (max-width: 768px) {}
 
 
 /* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {}
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    h3 {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+}
 
 
 /* For x-Large*/
