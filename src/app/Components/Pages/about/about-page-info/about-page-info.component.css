@@ -1,9 +1,15 @@
 .text {
+    color: #F2F2F2 !important;
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
     line-height: 46px;
     margin-top: 30px;
+}
+
+.container-fluid {
+    /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
+    background-color: #000112;
 }
 
 p {
@@ -13,6 +19,7 @@ p {
     line-height: 22px;
     letter-spacing: 0.5px;
     text-align: justify;
+    color: #F2F2F2 !important;
 }
 
 a {

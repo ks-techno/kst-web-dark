@@ -1,0 +1,158 @@
+.container-fluid {
+    /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
+    background-color: #000112;
+    padding: 25px;
+}
+
+.text {
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.form-text {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+.has-error input {
+    border: 1px solid red;
+}
+
+
+.form-group {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.form-control {
+    background-color: #EAEAEA;
+    border: none;
+}
+
+.btn-primary {
+    background: #29416F;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #5EBE80;
+    border: none;
+}
+
+.card {
+    border: none;
+}
+
+.card.second {
+    margin-top: 140px;
+    border-radius: 8px;
+    border: none;
+}
+
+.row.mt-4 {
+
+    color: #000000;
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .text {
+        font-size: 16px;
+    }
+
+    .form-group {
+        width: 250px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .card.second {
+        margin-left: 60px;
+        width: 220px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .text {
+        font-size: 18px;
+    }
+
+    .form-group {
+        width: 360px;
+    }
+
+    .card.second {
+        margin-left: 60px;
+        width: 360px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .text {
+        font-size: 19px;
+    }
+
+    .form-group {
+        width: 550px;
+    }
+
+    .card.second {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 830px) {
+    .card.second {
+        margin-left: 190px !important;
+        width: 300px !important;
+    }
+}
+
+/* For Large*/
+@media only screen and (min-width:768px) and (max-width: 1039px) {
+    .card.second {
+        margin-left: 180px;
+        width: 320px !important;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1300px) {
+    .card.second {
+        margin-left: 180px;
+        width: 350px !important;
+    }
+}
+
+@media only screen and (min-width:1300px) and (max-width: 1500px) {
+    .card.second {
+        margin-left: 150px;
+        width: 460px !important;
+    }
+}
+
+@media only screen and (min-width:1500px) and (max-width: 1900px) {
+    .card.second {
+        margin-left: 140px;
+        width: 560px !important;
+    }
+}

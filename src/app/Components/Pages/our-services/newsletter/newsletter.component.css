@@ -1,4 +1,4 @@
-.row.mt-4 .col {
+h5 {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -6,35 +6,37 @@
     text-align: center;
     letter-spacing: 0.15px;
     color: var(--primary-color);
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
-.row .col {
-    height: 46px;
-    width: 496px;
+h2 {
+    color: var(--primary-color);
     font-weight: 600;
     line-height: 46px;
     font-size: 44px;
-    text-align: center;
 }
 
 .input-group {
-
     width: 45%;
     margin-left: 100px;
     border-color: #000000;
-
 }
 
 .btn-primary {
     border: none;
     background: var(--secondary-color);
     border-radius: 8px;
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 
 .btn-primary:hover {
     background-color: var(--primary-color);
+}
+
+.container-fluid {
+    /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
+    background-color: #000112;
+    background: linear-gradient(to bottom right, #000112, #458b5e);
 }
 
 
