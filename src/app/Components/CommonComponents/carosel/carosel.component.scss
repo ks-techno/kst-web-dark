@@ -5,15 +5,24 @@
 
 p {
   color: var(--text-color);
+  padding-bottom: 50px;
 }
 
-h2 {
+h1 {
   color: var(--text-color);
+  padding-bottom: 10px;
 }
 
 [type=radio] {
   display: none;
 
+}
+
+.card {
+  margin-top: 10;
+  border: none;
+  width: 75%;
+  background-color: #000112;
 }
 
 #slider {
@@ -24,6 +33,21 @@ h2 {
   perspective: 1000px;
   transform-style: preserve-3d;
 }
+
+#slider label span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 #slider label {
   margin: auto;
@@ -101,7 +125,7 @@ h2 {
     font-size: 11px;
   }
 
-  h2 {
+  h1 {
     font-size: 14px;
   }
 }
@@ -113,23 +137,7 @@ h2 {
     font-size: 12px;
   }
 
-  h2 {
+  h1 {
     font-size: 16px;
   }
 }
-
-
-/* For medium */
-@media only screen and (min-width:577px) and (max-width: 768px) {}
-
-
-/* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {}
-
-
-/* For x-Large*/
-@media only screen and (min-width:1040px) and (max-width: 1700px) {}
-
-
-/* For x-x-Large*/
-@media only screen and (min-width:1700px) and (max-width: 2200px) {}
