@@ -1,3 +1,7 @@
+.container-fluid {
+    background: linear-gradient(to bottom right, #000112, #458b5e 190%);
+  }
+  
 h5 {
     font-style: normal;
     font-weight: 600;
@@ -6,7 +10,7 @@ h5 {
     text-align: center;
     letter-spacing: 0.15px;
     color: var(--primary-color);
-    /* margin-top: 50px; */
+    margin-top: 50px;
 }
 
 h2 {
@@ -32,13 +36,6 @@ h2 {
 .btn-primary:hover {
     background-color: var(--primary-color);
 }
-
-.container-fluid {
-    /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
-    background-color: #000112;
-    background: linear-gradient(to bottom right, #000112, #458b5e);
-}
-
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
