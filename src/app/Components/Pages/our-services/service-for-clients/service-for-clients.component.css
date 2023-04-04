@@ -13,10 +13,12 @@
 .container-fluid {
     /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
     background-color: #000112;
+    background: linear-gradient(to right, #000112 70%, #458b5e);
+
 }
 
 .card:hover {
-    background-color: #5EBE80 !important;
+    background-color: var(--primary-color) !important;
     color: var(--text-color);
     background-size: 100% 100%;
     transition: .4s;
@@ -40,6 +42,8 @@ p {
     /* number of lines to show */
     line-clamp: 3;
     -webkit-box-orient: vertical;
+    text-align: justify;
+
 }
 
 .card:hover img {
