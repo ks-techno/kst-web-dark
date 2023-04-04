@@ -1,23 +1,18 @@
-import { Component, ViewChild  } from '@angular/core';
-import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-brands',
   templateUrl: './brands.component.html',
-  styleUrls: ['./brands.component.css']
+  styleUrls: ['./brands.components.scss']
 })
 export class BrandsComponent {
-  @ViewChild('carousel', { static: true }) carousel!: NgbCarousel;
+
   images = [
-    { src: 'image1.jpg', alt: 'Image 1' },
-    { src: 'image2.jpg', alt: 'Image 2' },
-    { src: 'image3.jpg', alt: 'Image 3' },
-    { src: 'image4.jpg', alt: 'Image 4' },
-    { src: 'image5.jpg', alt: 'Image 5' },
-    { src: 'image6.jpg', alt: 'Image 6' },
-    { src: 'image7.jpg', alt: 'Image 7' },
-    { src: 'image8.jpg', alt: 'Image 8' },
-    { src: 'image9.jpg', alt: 'Image 9' },
-    { src: 'image10.jpg', alt: 'Image 10' }
+    '../../../../../assets/clientLogo/1.png',
+    '../../../../../assets/clientLogo/2.png',
+    '../../../../../assets/clientLogo/3.png',
+    '../../../../../assets/clientLogo/4.png',
+    '../../../../../assets/clientLogo/5.png',
+    '../../../../../assets/clientLogo/6.png',
   ];
 }

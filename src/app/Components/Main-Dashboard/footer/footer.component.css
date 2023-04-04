@@ -1,9 +1,9 @@
-.container-fluid {
+/* .container-fluid .p-1{
     background-color: var(--background-color);
     overflow: hidden !important;
     overflow-x: hidden;
     text-align: center;
-}
+} */
 
 .img-fluid {
     margin-top: 10px;
@@ -47,6 +47,7 @@ footer {
     background-color: var(--background-color);
     overflow: hidden !important;
     overflow-x: hidden;
+    text-align: center;
 }
 
 .text-center {
