@@ -28,6 +28,7 @@ import { ContactUsFormPageComponent } from './Components/Pages/contact/contact-u
 import { ReactiveFormsModule } from '@angular/forms';
 import { CardAboutUsComponent } from './Components/Pages/home/card-about-us/card-about-us.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,6 +55,7 @@ import { CardAboutUsComponent } from './Components/Pages/home/card-about-us/card
     CaroselComponent,
     ContactUsFormPageComponent,
     CardAboutUsComponent,
+ 
     
   ],
   imports: [

@@ -1,0 +1,98 @@
+h1 {
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 46px;
+    text-align: center !important;
+}
+
+h3 {
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+   
+}
+
+.text-muted {
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+}
+
+p {
+    color: var(--text-color);
+}
+
+.container-fluid {
+    background-color: #000112;
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+        margin-right: 24px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 12px;
+        margin-right: 24px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    h1 {
+        font-size: 31px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-right: 24px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}
