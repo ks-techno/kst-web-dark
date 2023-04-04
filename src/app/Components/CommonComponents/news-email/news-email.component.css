@@ -37,6 +37,14 @@ h2 {
     background-color: var(--primary-color);
 }
 
+.container-fluid {
+    /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
+    background-color: #000112;
+    background: linear-gradient(to right, #000112 70%, #458b5e);
+    /* background: linear-gradient(to left, #000112); */
+}
+
+
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
 

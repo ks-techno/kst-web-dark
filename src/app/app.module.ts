@@ -28,6 +28,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CardAboutUsComponent } from './Components/Pages/home/card-about-us/card-about-us.component';
 import { NewsEmailComponent } from './Components/CommonComponents/news-email/news-email.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,6 +54,7 @@ import { NewsEmailComponent } from './Components/CommonComponents/news-email/new
     ContactUsFormPageComponent,
     CardAboutUsComponent,
     NewsEmailComponent,
+ 
     
   ],
   imports: [

@@ -5,12 +5,13 @@ import { PortfolioComponent } from './Components/Pages/portfolio/portfolio.compo
 import { AboutComponent } from './Components/Pages/about/about.component';
 import { ContactComponent } from './Components/Pages/contact/contact.component';
 import { OurServicesComponent } from './Components/Pages/our-services/our-services.component';
+import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
 import { ErrorComponent } from './Components/Pages/error/error.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { 
+  {
     component: HomeComponent,
     path: "home",
     data: {
@@ -18,7 +19,7 @@ const routes: Routes = [
       subheading: 'A Software development company devoted to your project\'s success which accelerate your digital growth with our solutions.'
     }
   },
-  { 
+  {
     component: ContactComponent,
     path: "contact",
     data: {
@@ -26,7 +27,7 @@ const routes: Routes = [
       subheading: 'Get in touch with our team'
     }
   },
-  { 
+  {
     component: PortfolioComponent,
     path: "portfolio",
     data: {
@@ -34,7 +35,7 @@ const routes: Routes = [
       subheading: 'We are a team of expert developers, designers, and project managers who are passionate about delivering high-quality software solutions to our clients.'
     }
   },
-  { 
+  {
     component: AboutComponent,
     path: "about",
     data: {
@@ -42,13 +43,17 @@ const routes: Routes = [
       subheading: 'KS-Technologies is a software development company. Our team of expert developers are skilled in React JS, AWS, Angular, WordPress, Shopify, Block chain, Machine Learning, PMO Department, Python with AI, Web3 Solidity and ROR, allowing us to develop software for a variety of platforms and industries. We are dedicated to provide top-quality software solutions to our clients, and we take pride in delivering software that meets and exceeds their expectations.'
     }
   },
-  { 
+  {
     component: OurServicesComponent,
     path: "our-service",
     data: {
       heading: 'Our Services',
       subheading: 'We are dedicated to provide top-quality software solutions to our clients, and we take pride in delivering software that meets and exceeds their expectations. We strive to stay on top of the latest trends and technologies to provide our clients with cutting-edge software solutions.'
     }
+  },
+  {
+    component: PrivacyPoliciyComponent,
+    path: "privacy-policy",
   },
   { path: '**', component: ErrorComponent }
 ];
@@ -79,7 +84,7 @@ const routes: Routes = [
 // ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{
+  imports: [RouterModule.forRoot(routes, {
     scrollPositionRestoration: 'top',
     anchorScrolling: 'enabled',
   })],

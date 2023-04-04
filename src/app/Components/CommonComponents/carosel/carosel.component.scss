@@ -3,45 +3,22 @@
   padding: 20px;
 }
 
-.card {
-  margin-top: 10;
-  border: none;
-  width: 75%;
-  background-color: #000112;
+p {
+  color: var(--text-color);
 }
 
-h1 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 44px;
-  line-height: 46px;
-  color: var(--text-color);
-  text-align: center;
-  overflow: hidden !important;
-}
-p{
+h2 {
   color: var(--text-color);
 }
+
 [type=radio] {
   display: none;
 
 }
 
-#slider label span {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-  padding: 5px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-
 #slider {
+  // margin-top: 10vh;
+  // margin-bottom: 10vh;
   height: 39vw;
   position: relative;
   perspective: 1000px;
@@ -109,3 +86,50 @@ p{
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
   transform: translate3d(30%, 0, -200px);
 }
+
+//   #slide1 { background: #00BCD4 }
+//   #slide2 { background: #4CAF50 }
+//   #slide3 { background: #CDDC39 }
+//   #slide4 { background: #FFC107 }
+//   #slide5 { background: #FF5722 }
+
+
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+  p {
+    font-size: 11px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+  p {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}
