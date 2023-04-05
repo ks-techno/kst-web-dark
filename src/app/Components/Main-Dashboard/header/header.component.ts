@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -10,13 +10,13 @@ export class HeaderComponent {
   heading!: string;
   subheading!: string;
   constructor() {
-    this.heading = localStorage.getItem('heading') || 'KS-Technologies';
+    this.heading = localStorage.getItem('heading') || 'KS-Technologies is a Perfect Solutions For your Business.';
     this.subheading = localStorage.getItem('subheading') || "A Software development company devoted to your project's success which accelerate your digital growth with our solutions.";
   }
   setActiveLink(link: string) {
     switch (link) {
       case 'home':
-        this.heading = 'KS-Technologies';
+        this.heading = 'KS-Technologies is a Perfect Solutions For your Business.';
         this.subheading = "A Software development company devoted to your project's success which accelerate your digital growth with our solutions.";
         break;
       case 'about':
@@ -35,7 +35,7 @@ export class HeaderComponent {
         break;
       case 'contact':
         this.heading = 'Contact Us';
-        this.subheading = 'Get in touch with our team';
+        this.subheading = 'We appreciate your interest and would love to hear from you. If you have any questions, comments, or feedback, please do not hesitate to reach out to us using the form below. We will get back to you as soon as possible.';
         break;
       default:
         break;
