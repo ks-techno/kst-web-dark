@@ -3,13 +3,15 @@
   padding: 20px;
 }
 
-p {
+.paragrapgh {
   color: var(--text-color);
+  align-items: center;
+  width: 40%;
   padding-bottom: 50px;
 }
 
 h1 {
-  color: var(--text-color);
+  color: var(--primary-color);
   padding-bottom: 10px;
 }
 
