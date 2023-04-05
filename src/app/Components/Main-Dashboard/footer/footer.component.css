@@ -1,9 +1,10 @@
-/* .container-fluid .p-1{
+.ftr{
     background-color: var(--background-color);
     overflow: hidden !important;
     overflow-x: hidden;
     text-align: center;
-} */
+    width: 100%;
+}
 
 .img-fluid {
     margin-top: 10px;
@@ -21,8 +22,8 @@
     color: var(--primary-color);
     display: inline-block;
     margin-right: 20px;
+    cursor: pointer;
 }
-
 .nav-item {
     color: var(--primary-color);
     display: inline-block;
@@ -43,7 +44,11 @@ footer {
 }
 
 .container-fluid {
-    /* border-top: 1px solid var(--text-color); */
+    background-image: url(../../../../assets/About-us-images/landingImageaboutUs.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-top: 1px solid var(--text-color);
     background-color: var(--background-color);
     overflow: hidden !important;
     overflow-x: hidden;

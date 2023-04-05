@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="text-center">
+            <h5>Get Latest Updates</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center">
+            <h2>Subscribe For Newsletter</h2>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-8 mt-4">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="demo@example.com" formControlName="email"
+                    aria-label="Recipient's username" name="email" required email>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div *ngIf="form.controls['email'].invalid && (form.controls['email'].dirty || form.controls['email'].touched)">
+                    <small *ngIf="form.controls['email'].errors?.['required']">Email is required</small>
+                    <small *ngIf="form.controls['email'].errors?.['email']">Invalid email format</small>
+                </div>
+              </form>
+        </div>
+    </div>
+    <br />
+    <br />
+</div>
