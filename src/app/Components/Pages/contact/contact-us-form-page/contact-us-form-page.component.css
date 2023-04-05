@@ -10,7 +10,7 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 30px;
-    color: #000000;
+    color: var(--text-color);
 }
 
 .form-text {
@@ -19,7 +19,7 @@
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.15px;
-    color: #000000;
+    color: var(--text-color);
 }
 
 .has-error input {
@@ -33,7 +33,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 25px;
-    color: #000000;
+    color: var(--text-color);
 }
 
 .form-control {
@@ -53,6 +53,7 @@
 
 .card {
     border: none;
+    background-color: #000112;
 }
 
 .card.second {
@@ -63,7 +64,7 @@
 
 .row.mt-4 {
 
-    color: #000000;
+    color: var(--text-color);
 }
 
 /* For x-small */

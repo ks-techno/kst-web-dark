@@ -27,6 +27,8 @@ import { ContactUsFormPageComponent } from './Components/Pages/contact/contact-u
 import { ReactiveFormsModule } from '@angular/forms';
 import { CardAboutUsComponent } from './Components/Pages/home/card-about-us/card-about-us.component';
 import { NewsEmailComponent } from './Components/CommonComponents/news-email/news-email.component';
+import { TestimonialsComponent } from './Components/Pages/home/testimonials/testimonials.component';
+import { TopServicesComponent } from './Components/Pages/home/top-services/top-services.component';
 
 
 @NgModule({
@@ -54,6 +56,8 @@ import { NewsEmailComponent } from './Components/CommonComponents/news-email/new
     ContactUsFormPageComponent,
     CardAboutUsComponent,
     NewsEmailComponent,
+    TestimonialsComponent,
+    TopServicesComponent,
  
     
   ],

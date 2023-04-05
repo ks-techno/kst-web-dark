@@ -44,7 +44,7 @@ footer {
 }
 
 .container-fluid {
-    background-image: url(../../../../assets/About-us-images/landingImageaboutUs.png);
+    /* background-image: url(../../../../assets/About-us-images/landingImageaboutUs.png); */
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -53,11 +53,11 @@ footer {
     overflow: hidden !important;
     overflow-x: hidden;
     text-align: center;
-    background: linear-gradient(to right, #000112 70%, #458b5e);
+    /* background: linear-gradient(to right, #000112 70%, #458b5e); */
 }
 
 .text-center {
-    color: white;
+    color: var(--text-color);
     margin-top: 18px;
 }
 
