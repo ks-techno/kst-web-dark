@@ -1,5 +1,5 @@
 .container-fluid {
-    background: linear-gradient(to bottom right, #000112, #458b5e 190%);
+    background-color: var(--background-color);
   }
   
 h5 {
@@ -40,7 +40,7 @@ h2 {
 .container-fluid {
     /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
     background-color: #000112;
-    background: linear-gradient(to right, #000112 70%, #458b5e);
+    background-color: var(--background-color);
     /* background: linear-gradient(to left, #000112); */
 }
 
