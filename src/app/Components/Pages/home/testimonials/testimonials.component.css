@@ -1,0 +1,160 @@
+.container-fluid{
+    background-color: #000112;
+}
+.card {
+    background-color: #172A46;
+    color: var(--text-color);
+    border: none;
+
+}
+
+.card:hover {
+    background-color: #5EBE80 !important;
+    color: var(--text-color);
+    background-size: 100% 100%;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.text-center {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: var(--text-color);
+}
+
+.text {
+    color: var(--text-color);
+}
+
+/* .rating {
+    color: #F2C94C;
+} */
+
+p {
+    text-transform: justify !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+
+/* .ksd-logo{
+    height: 65px;
+} */
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .card {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .rating {
+
+        font-size: 12px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .card {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 769px) {
+    .card {
+        margin-top: 20px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .card {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    /* .rating {
+        font-size: 12px;
+        margin-left: 50px;
+    } */
+
+    .text {
+        font-size: 11px;
+    }
+
+    .zoey-logo {
+        height: 90px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:992px) and (max-width: 1400px) {
+    .card {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    /* .rating {
+        font-size: 12px;
+        margin-left: 50px;
+    } */
+
+    .text {
+        font-size: 11px;
+    }
+
+    .zoey-logo {
+        height: 90px;
+    }
+}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1401px) and (max-width: 2200px) {
+    .card {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .zoey-logo {
+        height: 90px;
+    }
+}

@@ -31,6 +31,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RatingModule } from 'ngx-bootstrap/rating';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TestimonialsComponent } from './Components/Pages/home/testimonials/testimonials.component';
+import { TopServicesComponent } from './Components/Pages/home/top-services/top-services.component';
 
 
 @NgModule({
@@ -58,6 +60,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactUsFormPageComponent,
     CardAboutUsComponent,
     NewsEmailComponent,
+    TestimonialsComponent,
+    TopServicesComponent,
  
     
   ],
