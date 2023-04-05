@@ -17,8 +17,6 @@
                             </label>
                             <input class="form-control" type="text" formControlName="firstname"
                                 placeholder="First Name" />
-                            <!-- <small class="form-text">First Name</small> -->
-
                             <div *ngIf="form.get('firstname')?.touched && form.get('firstname')?.invalid">
                                 <div *ngIf="form.get('firstname')?.errors?.['required']"
                                     style="font-size: 10px; color: brown;">*Required</div>
