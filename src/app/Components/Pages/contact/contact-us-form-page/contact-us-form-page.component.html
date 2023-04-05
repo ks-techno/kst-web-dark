@@ -1,5 +1,5 @@
-<div class="row">
-    <div class="col-md-6">
+<div class="container-fluid">
+    <div class="col-md-5">
         <div class="card" style="width:700px;">
             <div class="row">
                 <div class="offset-1 col-md-10 col-sm-6">
@@ -67,7 +67,8 @@
                             <label>
                                 Phone Number
                             </label>
-                            <input class="form-control" type="text" formControlName="phone" placeholder="03xx-xxxxxxx" />
+                            <input class="form-control" type="text" formControlName="phone"
+                                placeholder="03xx-xxxxxxx" />
                             <div *ngIf="form.get('phone')?.touched && form.get('phone')?.invalid">
                                 <div *ngIf="form.get('phone')?.errors?.['required']"
                                     style="font-size: 10px; color: brown;">*Required</div>
@@ -121,15 +122,12 @@
                     <h6 style="font-size: 15px; color: rgb(42, 165, 42);">{{ message }}</h6>
                 </div>
             </form>
-
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card second" >
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.3978200722726!2d74.18240961561653!3d31.373147058250497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918ff4f2f9ddbbf%3A0xb8a551d63acbc691!2sPalm%20Tower!5e0!3m2!1sen!2sus!4v1653292962159!5m2!1sen!2sus"
-                height="400" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
-        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.3978200722726!2d74.18240961561653!3d31.373147058250497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918ff4f2f9ddbbf%3A0xb8a551d63acbc691!2sPalm%20Tower!5e0!3m2!1sen!2sus!4v1653292962159!5m2!1sen!2sus"
+            height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
     </div>
 </div>

@@ -37,7 +37,7 @@
 }
 
 .form-control {
-    background-color: #EAEAEA;
+    background-color: var(--text-color);
     border: none;
 }
 
