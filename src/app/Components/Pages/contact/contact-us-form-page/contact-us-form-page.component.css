@@ -55,8 +55,12 @@
     border: none;
     background-color: #000112;
 }
+.col-md-6{
+    background-color: var(--background-color);
+}
 
 .card.second {
+    background-color: var(--background-color);
     margin-top: 140px;
     border-radius: 8px;
     border: none;

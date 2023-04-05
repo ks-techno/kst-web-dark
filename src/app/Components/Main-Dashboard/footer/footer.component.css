@@ -1,4 +1,4 @@
-.ftr{
+.ftr {
     background-color: var(--background-color);
     overflow: hidden !important;
     overflow-x: hidden;
@@ -9,6 +9,7 @@
 .img-fluid {
     margin-top: 10px;
     height: auto;
+    padding: 20px;
     width: auto;
 }
 
@@ -18,12 +19,11 @@
     justify-content: center
 }
 
-.nav-item-icon {
-    color: var(--primary-color);
-    display: inline-block;
-    margin-right: 20px;
-    cursor: pointer;
+.nav-item-icon .fa-beat {
+    height: 25px;
+    width: 25px;
 }
+
 .nav-item {
     color: var(--primary-color);
     display: inline-block;
@@ -34,12 +34,16 @@ footer {
     overflow-x: hidden !important;
 }
 
-.icon {
-    font-weight: 500 !important;
+.nav-item .icon {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
     color: var(--text-color);
+    cursor: pointer;
 }
 
-.icon:hover {
+.nav-item .icon:hover {
     color: var(--primary-color);
 }
 
@@ -57,83 +61,84 @@ footer {
 }
 
 .text-center {
+    font-size: 15px;
     color: var(--text-color);
     margin-top: 18px;
 }
 
+.socialIcon:hover {
+    cursor: pointer;
+}
 
+.socialIcon {
+    color: var(--primary-color);
+    padding: 10px;
+    margin: 1px;
+}
+
+.socialIcon .fa-beat {
+    height: 20px;
+    width: 20px;
+}
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
-    .icon {
-        font-size: 10px;
+    .nav-item .icon {
+        font-size: 13px;
     }
 
     .menu-items {
         font-size: 10px;
     }
 
-    .socialIcon {
+    .socialIcon .fa-beat {
+        
+        height: 13px;
+        width: 13px;
+    }
+
+    .navbar-light{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .text-center {
         font-size: 10px;
     }
-
-    h5 {
-        font-size: 15px;
-    }
-
-    p {
-        font-size: 11px;
-    }
-
 }
 
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
-    .icon {
-        font-size: 11px;
+    .nav-item .icon {
+        font-size: 17px;
     }
 
     .menu-items {
         font-size: 11px;
     }
 
-    .socialIcon {
-        font-size: 11px;
+    .navbar-light{
+        padding: 5px;
+        margin: 5px;
     }
 
-    h5 {
-        font-size: 15px;
+    .socialIcon .fa-beat {
+        height: 15px;
+        width: 15px;
     }
 
-    .container {
+    .text-center {
         font-size: 12px;
     }
 
-    .text {
-        font-size: 11px;
-    }
-
-    p {
-        font-size: 13px;
-    }
 }
 
 
 /* For medium */
-@media only screen and (min-width:577px) and (max-width: 768px) {}
-
-
-/* For Large*/
-@media only screen and (min-width:769px) and (max-width: 1039px) {
-    .text {
-        text-align: center !important;
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .navbar-light{
+        padding: 5px;
+        margin: 5px;
     }
-}
 
-
-/* For x-Large*/
-@media only screen and (min-width:1040px) and (max-width: 1700px) {
-    .text {
-        text-align: center !important;
-    }
 }

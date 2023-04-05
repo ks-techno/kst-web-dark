@@ -26,8 +26,6 @@ h1 {
 }
 
 #slider {
-  // margin-top: 10vh;
-  // margin-bottom: 10vh;
   height: 39vw;
   position: relative;
   perspective: 1000px;
@@ -38,11 +36,15 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 50%;
+  width: 210px;
+  border: 1px solid var(--text-color);
+  border-radius: 15px;
   transform: translateX(-50%);
-  background-color: rgb(0, 0, 0);
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   margin-top: 10px;
-  padding: 5px;
+  padding: 3px;
+  font-family: 'Outfit';
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -125,6 +127,12 @@ h1 {
     font-size: 11px;
   }
 
+  #slider label span {
+    width: 100px;
+    font-size: 13px;
+    padding: 0;
+  }
+
   h1 {
     font-size: 14px;
   }
@@ -135,6 +143,12 @@ h1 {
 @media only screen and (min-width:401px) and (max-width: 576px) {
   p {
     font-size: 12px;
+  }
+
+  #slider label span {
+    width: 130px;
+    font-size: 15px;
+    padding: 0;
   }
 
   h1 {
