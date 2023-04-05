@@ -11,19 +11,29 @@
     </div>
     <div class="row mt-4">
         <div class="col-md-8 mt-4">
-            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <form [formGroup]="emailForm" (ngSubmit)="onSubmit()">
                 <div class="input-group mb-3">
-                  <input type="email" class="form-control" placeholder="demo@example.com" formControlName="email"
-                    aria-label="Recipient's username" name="email" required email>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <input type="email" class="form-control" id="email" name="email" formControlName="email" placeholder="demo@example.com">
+                  <div *ngIf="emailForm.get('email')?.invalid && (emailForm.get('email')?.dirty || emailForm.get('email')?.touched)">
+                    <div *ngIf="emailForm.get('email')?.errors?.['required']"></div>
+                    <div *ngIf="emailForm.get('email')?.errors?.['email']"></div>
+                  </div>
+                  <button type="submit" class="btn btn-primary" [disabled]="emailForm.invalid">Subscribe</button>
                 </div>
-                <div *ngIf="form.controls['email'].invalid && (form.controls['email'].dirty || form.controls['email'].touched)">
-                    <small *ngIf="form.controls['email'].errors?.['required']">Email is required</small>
-                    <small *ngIf="form.controls['email'].errors?.['email']">Invalid email format</small>
-                </div>
+                
               </form>
+              
+              
         </div>
     </div>
     <br />
     <br />
 </div>
+<!--[formGroup]="form" (ngSubmit)="onSubmit()" 
+
+    <div *ngIf="form.controls['email'].invalid && (form.controls['email'].dirty || form.controls['email'].touched)">
+                    <small *ngIf="form.controls['email'].errors?.['required']">Email is required</small>
+                    <small *ngIf="form.controls['email'].errors?.['email']">Invalid email format</small>
+                </div>
+
+-->

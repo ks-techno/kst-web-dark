@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
@@ -24,9 +23,14 @@ import { ServiceForClientsComponent } from './Components/Pages/our-services/serv
 import { BackToTopComponent } from './Components/CommonComponents/back-to-top/back-to-top.component';
 import { CaroselComponent } from './Components/CommonComponents/carosel/carosel.component';
 import { ContactUsFormPageComponent } from './Components/Pages/contact/contact-us-form-page/contact-us-form-page.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CardAboutUsComponent } from './Components/Pages/home/card-about-us/card-about-us.component';
 import { NewsEmailComponent } from './Components/CommonComponents/news-email/news-email.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RatingModule } from 'ngx-bootstrap/rating';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -58,11 +62,19 @@ import { NewsEmailComponent } from './Components/CommonComponents/news-email/new
     
   ],
   imports: [
-    ReactiveFormsModule,
+    
     BrowserModule,
     CommonModule,
     AppRoutingModule,
-    NgbModule
+    ReactiveFormsModule,
+    FormsModule,
+    FontAwesomeModule,
+    RatingModule.forRoot(),
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule,
+
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
