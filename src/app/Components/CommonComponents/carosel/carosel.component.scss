@@ -1,5 +1,5 @@
 .container-fluid {
-  background-color: #000112;
+  background-color: var(--background-color); 
   padding: 20px;
 }
 
@@ -22,7 +22,7 @@ h1 {
   margin-top: 10;
   border: none;
   width: 75%;
-  background-color: #000112;
+  background-color: var(--background-color); 
 }
 
 #slider {

@@ -32,7 +32,7 @@ p {
 }
 
 .container-fluid {
-    background-color: #000112;
+    background-color:var(--background-color); 
 }
 
 /* For x-small */

@@ -1,6 +1,6 @@
 
 .container-fluid {
-    background-color: #000112;
+    background-color:var(--background-color); 
     padding: 25px;
 }
 h1 {
