@@ -7,5 +7,5 @@ import { Component} from '@angular/core';
 })
 export class FooterComponent {
   public currentYear: number = new Date().getFullYear();
-  public companyName: string = 'KS-Technologies';
+  public companyName: string = 'Ks-Technologies (pvt) Ltd.';
 }

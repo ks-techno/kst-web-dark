@@ -7,6 +7,7 @@ import { ContactComponent } from './Components/Pages/contact/contact.component';
 import { OurServicesComponent } from './Components/Pages/our-services/our-services.component';
 import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
 import { ErrorComponent } from './Components/Pages/error/error.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 
 const routes: Routes = [
@@ -54,40 +55,22 @@ const routes: Routes = [
   {
     component: PrivacyPoliciyComponent,
     path: "privacy-policy",
+    data: {
+      heading: 'Privacy Policy',
+      subheading: ''
+    }
   },
   { path: '**', component: ErrorComponent }
 ];
-
-// const routes: Routes = [
-//   { path: '', redirectTo: 'home', pathMatch: 'full' },
-//   { 
-//     component: HomeComponent,
-//     path: "home"
-//   },
-//   { 
-//     component:ContactComponent,
-//     path: "contact"
-//   },
-//   { 
-//     component: PortfolioComponent,
-//     path: "portfolio"
-//   },
-//   { 
-//     component: AboutComponent,
-//     path: "about"
-//   },
-//   { 
-//     component: OurServicesComponent,
-//     path: "our-service"
-//   },
-//  { path: '**', component: ErrorComponent }
-// ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
     scrollPositionRestoration: 'top',
     anchorScrolling: 'enabled',
   })],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ]
 })
 export class AppRoutingModule { }
