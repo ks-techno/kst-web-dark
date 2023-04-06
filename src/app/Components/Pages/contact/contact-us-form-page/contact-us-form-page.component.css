@@ -7,7 +7,7 @@
     margin-top: 60px;
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
     color: var(--text-color);
 }
@@ -26,14 +26,6 @@
 }
 
 
-.form-group {
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 25px;
-    color: var(--text-color);
-}
 
 .form-control {
     background-color: var(--text-color);
@@ -58,52 +50,37 @@
     background-color: var(--background-color);
 }
 
-.card.second {
-    background-color: var(--background-color);
-    margin-top: 140px;
-    border-radius: 8px;
-    border: none;
+.row.mt-4 {
+    color: var(--text-color);
 }
 
-.row.mt-4 {
-
-    color: var(--text-color);
+.card {
+    padding: 50px;
 }
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
     .text {
-        font-size: 16px;
-    }
-
-    .form-group {
-        width: 250px;
+        font-size: 12px;
     }
 
     h4 {
         font-size: 14px;
     }
 
-    .card.second {
-        margin-left: 60px;
-        width: 220px;
+    .card{
+        margin-top: 20px;
     }
+
 }
-
-
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
     .text {
-        font-size: 18px;
+        font-size: 16px;
     }
 
-    .form-group {
-        width: 360px;
-    }
-
-    .card.second {
-        margin-left: 60px;
-        width: 360px;
+    .card{
+        margin-top: 20px;
     }
 }
 
@@ -111,52 +88,43 @@
 /* For medium */
 @media only screen and (min-width:577px) and (max-width: 768px) {
     .text {
-        font-size: 19px;
+        font-size: 17px;
     }
 
-    .form-group {
-        width: 550px;
-    }
-
-    .card.second {
-        margin-left: 60px;
+    .card{
+        margin-top: 20px;
     }
 }
 
-@media only screen and (min-width:768px) and (max-width: 830px) {
+@media only screen and (min-width:769px) and (max-width: 830px) {
     .card.second {
         margin-left: 190px !important;
-        width: 300px !important;
+    }
+    .text {
+        font-size: 20px;
     }
 }
 
-/* For Large*/
 @media only screen and (min-width:768px) and (max-width: 1039px) {
-    .card.second {
-        margin-left: 180px;
-        width: 320px !important;
+    .card{
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .text {
+        font-size: 22px;
     }
 }
 
 
 /* For x-Large*/
 @media only screen and (min-width:1040px) and (max-width: 1300px) {
-    .card.second {
-        margin-left: 180px;
-        width: 350px !important;
-    }
+    
 }
 
 @media only screen and (min-width:1300px) and (max-width: 1500px) {
-    .card.second {
-        margin-left: 150px;
-        width: 460px !important;
-    }
+   
 }
 
 @media only screen and (min-width:1500px) and (max-width: 1900px) {
-    .card.second {
-        margin-left: 140px;
-        width: 560px !important;
-    }
+    
 }

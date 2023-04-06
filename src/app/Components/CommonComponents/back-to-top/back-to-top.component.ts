@@ -9,7 +9,7 @@ export class BackToTopComponent {
   constructor() { }
   ngOnInit(): void {
   }
-  // Show or hide the button based on the user's scroll position
+
   @HostListener('window:scroll', [])
   onWindowScroll() {
     var btn = document.getElementById("back-to-top-btn");
@@ -20,7 +20,6 @@ export class BackToTopComponent {
     }
   }
 
-  // Scroll back to the top when the button is clicked
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
