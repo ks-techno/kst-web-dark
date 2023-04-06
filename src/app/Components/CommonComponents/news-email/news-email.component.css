@@ -20,7 +20,6 @@ h2 {
     width: 70%;
     margin-left: 100px;
     border-color: #000000;
-    /* background-color: grey; */
 }
 
 
@@ -36,20 +35,20 @@ h2 {
 }
 
 .container-fluid {
-    background-color: #000112;
     background-color: var(--background-color);
 }
 
-.res .msg{
+.res .msg {
     color: var(--primary-color);
     font-size: 20px;
     border-radius: 10px;
 }
+
 .input-error {
     border: 1px solid var(--danger-color);
 }
-  
-.error{
+
+.error {
     display: flex;
     margin-top: 5px;
     justify-content: center;
@@ -70,7 +69,10 @@ h2 {
         width: 67px;
         height: 39px;
         font-size: 10px;
+    }
 
+    .input-group {
+        margin: auto;
     }
 }
 
