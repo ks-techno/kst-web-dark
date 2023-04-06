@@ -5,7 +5,7 @@
 }
 
 .accordion-button {
-    background-color: #000112 !important;
+    background-color:var(--background-color);
     color: #5EBE80;
 }
 
@@ -24,13 +24,16 @@
 }
 
 .accordion-body {
-    background-color: #000112;
+    background-color: var(--background-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.5px;
-    color: white;
+    color:  var(--text-color);
+    text-align: justify;
+    text-transform: justify;
+
 }
 
 .accordion-item {
