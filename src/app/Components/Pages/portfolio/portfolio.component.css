@@ -1,8 +1,8 @@
-
 .container-fluid {
-    background-color:var(--background-color); 
+    background-color: var(--background-color);
     padding: 25px;
 }
+
 h1 {
     font-style: normal;
     font-weight: 600;
@@ -12,7 +12,8 @@ h1 {
     text-align: center;
     overflow: hidden !important;
 }
-p{
+
+p {
     color: var(--text-color);
 }
 
@@ -33,7 +34,7 @@ label {
     }
 
     p {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .img-fluid {
@@ -58,6 +59,13 @@ label {
 }
 
 @media only screen and (min-width:500px) and (max-width:590px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
 
     .img-fluid {
         height: 135px;
@@ -67,11 +75,11 @@ label {
 /* For medium */
 @media only screen and (min-width:577px) and (max-width: 768px) {
     h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .img-fluid {
@@ -87,7 +95,7 @@ label {
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .img-fluid {
@@ -100,6 +108,10 @@ label {
 @media only screen and (min-width:1040px) and (max-width: 1700px) {
     h1 {
         font-size: 35px;
+    }
+    
+    p {
+        font-size: 18px;
     }
 
     .img-fluid {

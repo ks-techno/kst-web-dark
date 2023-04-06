@@ -1,0 +1,61 @@
+.container-fluid {
+    background-color: var(--background-color);
+    padding: 20px;
+}
+
+p {
+    color: var(--text-color);
+    padding-bottom: 40px;
+}
+
+h1 {
+    color: var(--primary-color);
+    padding-bottom: 10px;
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    p {
+        font-size: 10px !important;
+    }
+
+    h1 {
+        font-size: 17px !important;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    p {
+        font-size: 12px !important;
+    }
+
+    h1 {
+        font-size: 22px !important;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    p {
+        font-size: 14px !important;
+    }
+
+    h1 {
+        font-size: 26px !important;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {}

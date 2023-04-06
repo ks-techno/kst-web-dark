@@ -33,6 +33,10 @@ import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialsComponent } from './Components/Pages/home/testimonials/testimonials.component';
 import { TopServicesComponent } from './Components/Pages/home/top-services/top-services.component';
+import { AboutHomePageComponent } from './Components/CommonComponents/Landing-Page/about-home-page/about-home-page.component';
+import { OurServicesHomePageComponent } from './Components/CommonComponents/Landing-Page/our-services-home-page/our-services-home-page.component';
+import { PortfolioHomePageComponent } from './Components/CommonComponents/Landing-Page/portfolio-home-page/portfolio-home-page.component';
+import { ContactUsHomePageComponent } from './Components/CommonComponents/Landing-Page/contact-us-home-page/contact-us-home-page.component';
 
 
 @NgModule({
@@ -62,6 +66,10 @@ import { TopServicesComponent } from './Components/Pages/home/top-services/top-s
     NewsEmailComponent,
     TestimonialsComponent,
     TopServicesComponent,
+    AboutHomePageComponent,
+    OurServicesHomePageComponent,
+    PortfolioHomePageComponent,
+    ContactUsHomePageComponent,
  
     
   ],
