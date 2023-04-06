@@ -4,7 +4,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 @Component({
   selector: 'app-carosel',
   templateUrl: './carosel.component.html',
-  styleUrls: ['./carosel.component.scss']
+  styleUrls: ['./carosel.component.css']
 })
 export class CaroselComponent {
   @ViewChild('sliderRef') sliderRef!: ElementRef;

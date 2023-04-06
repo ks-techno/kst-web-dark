@@ -1,10 +1,11 @@
 .container-fluid.main {
     width: 100%;
     height: auto;
-    background-image: url(../../../../assets/About-us-images/landingImageaboutUs.png);
+    /* background-image: url(../../../../assets/About-us-images/landingImageaboutUs.png);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     overflow: hidden;
+    background-color: var(--background-color);
 }
 
 .navbar-brand img {

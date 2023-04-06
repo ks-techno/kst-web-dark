@@ -1,6 +1,9 @@
 .container-fluid {
     margin-top: 10%;
     margin-bottom: 70px;
+    background-image: url(../../../../../assets/About-us-images/landingImageaboutUs.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .col-5 {
