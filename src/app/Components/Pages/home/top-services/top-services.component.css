@@ -12,7 +12,7 @@
 
 .container-fluid {
     /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
-    background-color:var(--background-color); 
+    background-color: var(--background-color);
     /* background: linear-gradient(to right, #000112 70%, #458b5e); */
 
 }
@@ -69,6 +69,10 @@ p {
     p {
         font-size: 13px;
     }
+
+    .card {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -91,6 +95,10 @@ p {
     p {
         font-size: 13px;
     }
+
+    .card {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -112,6 +120,10 @@ p {
 
     p {
         font-size: 15px;
+    }
+
+    .card {
+        margin-bottom: 25px;
     }
 }
 

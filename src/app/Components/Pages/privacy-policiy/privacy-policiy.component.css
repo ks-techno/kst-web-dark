@@ -4,17 +4,16 @@ h1 {
     font-weight: 600;
     font-size: 41px;
     line-height: 46px;
-    text-align: center !important;
 }
 
 h3 {
-    color: var(--text-color);
+    color:  var(--primary-color);
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
     line-height: 40px;
     letter-spacing: 0.2px;
-   
+
 }
 
 .text-muted {
@@ -32,13 +31,17 @@ p {
 }
 
 .container-fluid {
-    background-color:var(--background-color); 
+    background-color: var(--background-color);
 }
 
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
     h1 {
-        font-size: 28px;
+        font-size: 20px;
+    }
+
+    .text-muted {
+        font-size: 14px;
     }
 
     h3 {
@@ -55,7 +58,7 @@ p {
 /* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
     h1 {
-        font-size: 29px;
+        font-size: 25px;
     }
 
     h3 {
