@@ -1,6 +1,13 @@
 .container-fluid {
-    margin-top: 10%;
-    margin-bottom: 70px;
+    width: 100%;
+    min-height: 95vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../../assets/Common/gridBackground.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
 .col-5 {
