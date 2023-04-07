@@ -40,6 +40,10 @@ h5 {
     padding: 25px;
 }
 
+h3 {
+    margin-top: 40px;
+}
+
 /* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
     h3 {
