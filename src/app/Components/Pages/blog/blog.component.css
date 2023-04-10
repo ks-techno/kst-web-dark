@@ -1,0 +1,151 @@
+.container-fluid {
+    background-color: var(--background-color);
+    padding: 25px;
+}
+
+.text-center {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 46px;
+    color: var(--text-color);
+}
+
+.card {
+    border: none;
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.text-muted {
+    float: right;
+}
+
+.author {
+    color: var(--text-color);
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 650;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.card-body {
+    margin: 8px;
+}
+
+.card img {
+    border-radius: none !important;
+    border: none !important;
+}
+
+.card-img-top {
+    border-radius: 0px !important;
+    border: 0px;
+    overflow: hidden;
+}
+
+.card-footer {
+    border: none;
+    background: none;
+}
+
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    .text-center {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .text-muted {
+        font-size: 11px;
+        margin-top: 5px !important;
+    }
+
+    .author {
+        font-size: 11px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    .text-center {
+        font-size: 21px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .text-muted {
+        font-size: 13px;
+    }
+
+    .author {
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    .text-center {
+        font-size: 26px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+}
+
+
+/* For Large*/
+@media only screen and (min-width:768px) and (max-width: 1039px) {
+    .text-center {
+        font-size: 29px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .text-muted {
+        font-size: 12px;
+        margin-top: 5px !important;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {}
