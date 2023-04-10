@@ -8,6 +8,10 @@
     /* border-radius: 6px; */
 }
 
+.row {
+    margin-top: 10px;
+}
+
 .card {
     margin-top: 12px;
     background-color: #000112;
@@ -34,6 +38,10 @@ h5 {
     /* background-image: url(../../../.././../assets/our-services-images/3rdbg.png); */
     background-color: #000112;
     padding: 25px;
+}
+
+h3 {
+    margin-top: 40px;
 }
 
 /* For x-small */

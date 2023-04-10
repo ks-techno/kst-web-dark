@@ -17,6 +17,15 @@
 
 }
 
+.text-center {
+    margin-top: 10px;
+    margin-bottom: 55px !important;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: var(--text-color);
+}
+
 .card:hover {
     background-color: var(--primary-color) !important;
     color: var(--text-color);
@@ -25,14 +34,19 @@
     cursor: pointer;
 }
 
-.text-center {
+/* .text-center {
     font-size: 40px;
     color: var(--text-color);
-}
-
+} */
+/* 
 h2 {
     margin-top: 10px;
-}
+    margin-bottom: 15px !important;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: var(--text-color);
+} */
 
 p {
     overflow: hidden;

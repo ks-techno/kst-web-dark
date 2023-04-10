@@ -5,7 +5,7 @@
 }
 
 .accordion-button {
-    background-color: #000112 !important;
+    background-color: var(--background-color);
     color: #5EBE80;
 }
 
@@ -24,13 +24,16 @@
 }
 
 .accordion-body {
-    background-color: #000112;
+    background-color: var(--background-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.5px;
-    color: white;
+    color: var(--text-color);
+    text-align: justify;
+    text-transform: justify;
+
 }
 
 .accordion-item {
@@ -44,3 +47,39 @@
 }
 
 /* Accordians css end*/
+
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {}
+
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 1039px) {
+    img {
+        margin-left: 90px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:1040px) and (max-width: 1700px) {
+    img {
+        margin-left: 120px;
+    }
+}
+
+
+/* For x-x-Large*/
+@media only screen and (min-width:1700px) and (max-width: 2200px) {
+    img {
+        margin-left: 140px;
+    }
+}
