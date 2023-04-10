@@ -40,6 +40,8 @@ import { ContactUsHomePageComponent } from './Components/CommonComponents/Landin
 import { VideoLoaderComponent } from './Components/CommonComponents/video-loader/video-loader.component';
 import { VideoPreloadDirective } from './video-preload.directive';
 import { VideoLoaderService } from './video-loader.service';
+import { BlogComponent } from './Components/Pages/blog/blog.component';
+
 
 @NgModule({
   declarations: [
@@ -74,8 +76,8 @@ import { VideoLoaderService } from './video-loader.service';
     ContactUsHomePageComponent,
     VideoLoaderComponent,
     VideoPreloadDirective,
+    BlogComponent,
  
-    
   ],
   imports: [
     
