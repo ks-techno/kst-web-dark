@@ -34,7 +34,7 @@
     animation: spin 5s linear infinite;
 }
 
-@keyframes spin {
+/* @keyframes spin {
     0% {
         transform: rotateY(0deg);
     }
@@ -48,7 +48,7 @@
         transform: rotateY(360deg);
         content: url('../../../../assets/Common/logo.png');
     }
-}
+} */
 
 
 .navbar-nav {

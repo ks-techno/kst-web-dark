@@ -35,7 +35,6 @@ export class NewsEmailComponent {
           console.log("response", response);
           if (response && response?.['message']) {
             this.message = response?.['message'];
-            this.alert(new Alert({ this.message   }));
             this.toastr.success(this.message, 'Success');
           } else {
             this.message = "Unexpected response from server";
