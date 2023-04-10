@@ -8,6 +8,7 @@ import { OurServicesComponent } from './Components/Pages/our-services/our-servic
 import { PrivacyPoliciyComponent } from './Components/Pages/privacy-policiy/privacy-policiy.component';
 import { ErrorComponent } from './Components/Pages/error/error.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { BlogComponent } from './Components/Pages/blog/blog.component';
 
 
 const routes: Routes = [
@@ -49,6 +50,14 @@ const routes: Routes = [
     path: "our-service",
     data: {
       heading: 'Our Services',
+      subheading: 'We are dedicated to provide top-quality software solutions to our clients, and we take pride in delivering software that meets and exceeds their expectations. We strive to stay on top of the latest trends and technologies to provide our clients with cutting-edge software solutions.'
+    }
+  },
+  {
+    component: BlogComponent,
+    path: "blog",
+    data: {
+      heading: 'Blog & News',
       subheading: 'We are dedicated to provide top-quality software solutions to our clients, and we take pride in delivering software that meets and exceeds their expectations. We strive to stay on top of the latest trends and technologies to provide our clients with cutting-edge software solutions.'
     }
   },
