@@ -37,9 +37,6 @@ import { AboutHomePageComponent } from './Components/CommonComponents/Landing-Pa
 import { OurServicesHomePageComponent } from './Components/CommonComponents/Landing-Page/our-services-home-page/our-services-home-page.component';
 import { PortfolioHomePageComponent } from './Components/CommonComponents/Landing-Page/portfolio-home-page/portfolio-home-page.component';
 import { ContactUsHomePageComponent } from './Components/CommonComponents/Landing-Page/contact-us-home-page/contact-us-home-page.component';
-import { VideoLoaderComponent } from './Components/CommonComponents/video-loader/video-loader.component';
-import { VideoPreloadDirective } from './video-preload.directive';
-import { VideoLoaderService } from './video-loader.service';
 import { BlogComponent } from './Components/Pages/blog/blog.component';
 
 
@@ -74,8 +71,6 @@ import { BlogComponent } from './Components/Pages/blog/blog.component';
     OurServicesHomePageComponent,
     PortfolioHomePageComponent,
     ContactUsHomePageComponent,
-    VideoLoaderComponent,
-    VideoPreloadDirective,
     BlogComponent,
  
   ],
@@ -94,12 +89,7 @@ import { BlogComponent } from './Components/Pages/blog/blog.component';
     HttpClientModule
 
   ],
-  providers: [{
-    provide: APP_INITIALIZER,
-    useFactory: (videoLoader: VideoLoaderService) => () => videoLoader.loadVideo('../../../../assets/Common/loader.mp4').toPromise(),
-    deps: [VideoLoaderService],
-    multi: true
-  }],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
