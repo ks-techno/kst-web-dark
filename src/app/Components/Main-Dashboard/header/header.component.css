@@ -1,14 +1,36 @@
-.container-fluid.main {
+.container-fluid{
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    /* background-image: url(../../../../assets/Common/gridBackground1.png);
-    background-size: cover;
-    background-position:bottom; */
     overflow: hidden;
     background-color: var(--background-color);
 }
+/* 
+.header-transparent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .header-solid {
+    justify-content: center;
+    background-color: var(--background-color);
+  }
 
-.navbar-brand img {
+
+  
+  .logo-shrink {
+    width: 50px;
+
+    height: 50px;
+  }
+
+   */
+.logo{
     height: 80px;
     width: 70px;
     margin-left: 60px;
@@ -41,14 +63,21 @@
 
     50% {
         transform: rotateY(180deg);
-        content: url('../../../../assets/Common/logo2.png');
     }
 
     100% {
         transform: rotateY(360deg);
+        url(../../../../assets/Common/gridBackground1.png)
         content: url('../../../../assets/Common/logo.png');
     }
 } */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 
 
 .navbar-nav {
