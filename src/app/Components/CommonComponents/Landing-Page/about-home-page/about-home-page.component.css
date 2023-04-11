@@ -1,11 +1,4 @@
 .container-fluid {
-    margin-top: 10%;
-    margin-bottom: 70px;
-    
-}
-
-.col-5 {
-    margin-top: 10px;
     width: 100%;
     min-height: 95vh;
     display: flex;
