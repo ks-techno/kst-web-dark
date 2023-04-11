@@ -34,30 +34,35 @@ export class ContactUsFormPageComponent {
     });
   }
 
-  onSubmit() {
-    const formData: ContactFormData = {
-      first_name: this.form.value.firstname,
-      last_name: this.form.value.lastname,
-      email: this.form.value.email,
-      phone: this.form.value.phone,
-      subject: this.form.value.subject,
-      message: this.form.value.message
-    };
-    const apiUrl = environment.baseUrl + "contact";
-    const headers = new HttpHeaders({
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*"
-    });
-    const options = { headers };
-    this.http.post(apiUrl, formData, options).pipe(
-      catchError(error => {
-        return throwError("An error occurred while sending the form data.");
-      })
-    ).subscribe(response => {
-      this.message = 'Thank you for submitting the query. We will contact you shorlty.';
+onSubmit() {
+  const formData: ContactFormData = {
+    first_name: this.form.value.firstname,
+    last_name: this.form.value.lastname,
+    email: this.form.value.email,
+    phone: this.form.value.phone,
+    subject: this.form.value.subject,
+    message: this.form.value.message
+  };
+  interface ApiResponse {
+    [key: string]: any;
+  }
+  const apiUrl = environment.baseUrl + "contact";
+  const headers = new HttpHeaders({
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  });
+  const options = { headers };
+  this.http.post(apiUrl, formData, options)
+    .subscribe((response: ApiResponse) => {
+      console.log("response", response);
+      if (response && response?.['message']) {
+        this.message = response?.['message'];
+      } else {
+        this.message = "Unexpected response from server";
+      }
       this.form.reset();
     }, error => {
-      this.message = 'An error occurred while sending the form data.';
+      this.message = "Subscription failed";
     });
-  }
+}
 }

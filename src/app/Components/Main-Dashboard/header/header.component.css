@@ -1,10 +1,11 @@
 .container-fluid.main {
     width: 100%;
     height: auto;
-    background-image: url(../../../../assets/About-us-images/landingImageaboutUs.png);
+    /* background-image: url(../../../../assets/Common/gridBackground1.png);
     background-size: cover;
-    background-position: center;
+    background-position:bottom; */
     overflow: hidden;
+    background-color: var(--background-color);
 }
 
 .navbar-brand img {
@@ -33,7 +34,7 @@
     animation: spin 5s linear infinite;
 }
 
-@keyframes spin {
+/* @keyframes spin {
     0% {
         transform: rotateY(0deg);
     }
@@ -47,7 +48,7 @@
         transform: rotateY(360deg);
         content: url('../../../../assets/Common/logo.png');
     }
-}
+} */
 
 
 .navbar-nav {
