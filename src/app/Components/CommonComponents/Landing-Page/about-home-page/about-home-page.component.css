@@ -1,25 +1,30 @@
 .container-fluid {
-    margin-top: 10%;
-    margin-bottom: 70px;
-}
-
-.col-5 {
-    margin-top: 10px;
+    width: 100%;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-image: url(../../../../../assets/Common/gridBackground.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
 .card {
-    margin-top: 10;
+    margin-top: 100;
     border: none;
     background-color: transparent;
+}
+
+.text {
+    max-width: 1055px;
 }
 
 .card-title {
     font-weight: 800;
     font-size: 35px;
     margin-left: 40px;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .card-subtitle {
@@ -52,7 +57,6 @@
 }
 
 .float-center {
-
     max-width: 60%;
 }
 
@@ -66,13 +70,20 @@
     .card-title {
         font-size: 15px !important;
         margin-left: 0%;
-
     }
+
 
     .card-subtitle {
         font-size: 8px !important;
         margin-left: 0%;
+    }
 
+    .container-fluid {
+        min-height: 0;
+    }
+
+    .card {
+        padding: 25px
     }
 
     .btn-secondary {
@@ -96,6 +107,14 @@
         margin-left: 10px;
     }
 
+    .container-fluid {
+        min-height: 0;
+    }
+
+    .card {
+        padding: 25px
+    }
+
     .btn-secondary {
         width: 110px;
         height: 40px;
@@ -104,11 +123,19 @@
     }
 }
 
-@media only screen and (min-width:577px) and (max-width: 768px) {
+@media only screen and (min-width:577px) and (max-width: 767px) {
 
     .card-title {
         font-size: 23px;
         margin-left: 28px !important;
+    }
+
+    .container-fluid {
+        min-height: 0;
+    }
+
+    .card {
+        padding: 25px
     }
 
     .card-subtitle {
@@ -124,13 +151,52 @@
     }
 }
 
-@media only screen and (min-width:769px) and (max-width: 1039px) {
+@media only screen and (min-width:925px) and (max-width: 1039px) {
+    .order-1 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1039px) {
 
     .card-title {
         font-size: 25px;
     }
 
+    .container-fluid {
+        min-height: 80vh;
+    }
+
     .card-subtitle {
         font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width:1040px) and (max-width: 1300px) {
+    .order-1 {
+        padding: 20px;
+    }
+}
+
+
+@media only screen and (min-width:1301px) and (max-width: 1800px) {
+    .order-1 {
+        margin-top: 10px;
+        padding: 20px;
+    }
+}
+
+
+@media only screen and (min-width:1801px) and (max-width: 2200px) {
+    .order-1 {
+        margin-top: 30px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width:2201px) and (max-width: 2800px) {
+    .order-1 {
+        margin-top: 40px;
+        padding: 20px;
     }
 }

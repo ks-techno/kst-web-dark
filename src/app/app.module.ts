@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -37,7 +37,6 @@ import { AboutHomePageComponent } from './Components/CommonComponents/Landing-Pa
 import { OurServicesHomePageComponent } from './Components/CommonComponents/Landing-Page/our-services-home-page/our-services-home-page.component';
 import { PortfolioHomePageComponent } from './Components/CommonComponents/Landing-Page/portfolio-home-page/portfolio-home-page.component';
 import { ContactUsHomePageComponent } from './Components/CommonComponents/Landing-Page/contact-us-home-page/contact-us-home-page.component';
-import { VideoLoaderComponent } from './Components/video-loader/video-loader.component';
 import { BlogComponent } from './Components/Pages/blog/blog.component';
 
 
@@ -72,7 +71,6 @@ import { BlogComponent } from './Components/Pages/blog/blog.component';
     OurServicesHomePageComponent,
     PortfolioHomePageComponent,
     ContactUsHomePageComponent,
-    VideoLoaderComponent,
     BlogComponent,
  
   ],

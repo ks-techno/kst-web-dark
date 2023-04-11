@@ -1,7 +1,16 @@
 .container-fluid {
-    background-color:var(--background-color); 
-    padding: 35px;
-    /* border: 2px solid #fff; */
+    background-color: var(--background-color);
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--background-color);
+    padding: 50px;
+    max-width: 1000px;
+    border: 2px solid var(--text-color);
+    border-radius: 25px;
 }
 
 h4 {
@@ -21,35 +30,36 @@ p {
     color: var(--text-color);
     text-align: justify;
     text-justify: inter-word;
-    
+
 }
 
-a {
-    color: var(--primary-color);
-    text-decoration: none;
-    
-}
 
 .row {
     align-items: center !important;
     justify-content: center !important;
 }
 
-/* For x-small */
 @media only screen and (min-width:200px) and (max-width:400px) {
     h4 {
         color: var(--primary-color);
-        font-size: 15px !important;
+        font-size: 10px !important;
     }
 
     h5 {
         color: var(--text-color);
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .card-img-top{
+        margin-left: 30px;
+        height: 100px;
+        width: 100px;
+        padding: 0px;
     }
 
     p {
         color: var(--text-color);
-        font-size: 11px;
+        font-size: 7px;
     }
 
     .img-fluid {
@@ -58,8 +68,6 @@ a {
     }
 }
 
-
-/* For small */
 @media only screen and (min-width:401px) and (max-width: 576px) {
     h4 {
         color: var(--primary-color);
@@ -71,6 +79,13 @@ a {
         font-size: 25px;
     }
 
+    .card-img-top{
+        margin-left: 30px;
+        height: 150px;
+        width: 150px;
+        padding: 0px;
+    }
+
     p {
         color: var(--text-color);
         font-size: 11px;
@@ -83,7 +98,6 @@ a {
 }
 
 
-/* For medium */
 @media only screen and (min-width:577px) and (max-width: 768px) {
     h4 {
         color: var(--primary-color);
@@ -106,10 +120,8 @@ a {
     }
 }
 
-
-/* For Large*/
 @media only screen and (min-width:769px) and (max-width: 1039px) {
-    
+
     .img-fluid {
         height: 190px;
         width: 190px;
@@ -117,9 +129,8 @@ a {
 }
 
 
-/* For x-Large*/
 @media only screen and (min-width:1040px) and (max-width: 1700px) {
-    
+
     .img-fluid {
         height: 230px;
         width: 230px;
@@ -127,5 +138,4 @@ a {
 }
 
 
-/* For x-x-Large*/
 @media only screen and (min-width:1700px) and (max-width: 2200px) {}
