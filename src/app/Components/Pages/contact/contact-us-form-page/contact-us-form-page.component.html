@@ -64,11 +64,8 @@
                     <div class="col-md-10 col-sm-12">
                         <div class="form-group"
                             [ngClass]="{'has-error': form.get('phone')?.touched && form.get('phone')?.invalid}">
-                            <!-- <label class="form-group">
-                                Phone Number
-                            </label> -->
-                            <input class="form-control form-control-lg" type="text" formControlName="phone"
-                                placeholder="Phone [03xx-xxxxxxx]" />
+                                <input class="form-control form-control-lg" type="text" formControlName="phone"
+                                placeholder="Phone [03xx xxxxxxx]" />
                             <div *ngIf="form.get('phone')?.touched && form.get('phone')?.invalid">
                                 <div *ngIf="form.get('phone')?.errors?.['required']"
                                     style="font-size: 10px; color: brown;">*Required</div>
@@ -122,7 +119,6 @@
                     <h6 style="font-size: 15px; color: #5EBE80;">{{ message }}</h6>
                 </div>
             </form>
-            <label for="phone">Phone Number:</label>            
         </div>  
         <div class="col-md-6 mb-5 p-3  order-md-2 order-2">
             <div class="card map">

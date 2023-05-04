@@ -29,7 +29,7 @@ export class ContactUsFormPageComponent {
       firstname: ['', [Validators.required, Validators.minLength(3)]],
       lastname: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
-      phone: ['', [Validators.required, Validators.pattern('^03[0-9]{2}-[0-9]{7}$')]],
+      phone: ['', [Validators.required, Validators.pattern('^03[0-9]{2}[0-9]{7}$')]],
       subject: ['', [Validators.required, Validators.minLength(2)]],
       message: ['', [Validators.required, Validators.minLength(3)]]
     });
