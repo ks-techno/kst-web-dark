@@ -21,9 +21,10 @@ interface ContactFormData {
 })
 export class ContactUsFormPageComponent {
   form: FormGroup;
+  phoneNumber!: string;
+  countryCode!: string;
   message!: string;
-  Errormessage!: string;
-  constructor(private formBuilder: FormBuilder, private http: HttpClient, private toastr: ToastrService) {
+    constructor(private formBuilder: FormBuilder, private http: HttpClient, private toastr: ToastrService) {
     this.form = this.formBuilder.group({
       firstname: ['', [Validators.required, Validators.minLength(3)]],
       lastname: ['', [Validators.required, Validators.minLength(3)]],
@@ -33,7 +34,28 @@ export class ContactUsFormPageComponent {
       message: ['', [Validators.required, Validators.minLength(3)]]
     });
   }
+  validatePhoneNumber() {
+    // Check if a country code is selected
+    if (!this.countryCode) {
+      this.message = "Please select a country code";
+      return;
+    }
 
+    // Remove any non-numeric characters from the phone number
+    const phoneNumber = this.phoneNumber.replace(/\D/g, "");
+
+    // Check if the phone number is valid
+    if (!/^\d{10,}$/.test(phoneNumber)) {
+      this.message = "Please enter a valid phone number";
+      return;
+    }
+
+    // Combine the country code and phone number
+    const formattedPhoneNumber = this.countryCode + phoneNumber;
+
+    // Use the formatted phone number for further processing, e.g. sending to a server
+    console.log(formattedPhoneNumber);
+  }
 onSubmit() {
   const formData: ContactFormData = {
     first_name: this.form.value.firstname,
