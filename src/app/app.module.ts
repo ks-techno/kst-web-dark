@@ -38,6 +38,7 @@ import { OurServicesHomePageComponent } from './Components/CommonComponents/Land
 import { PortfolioHomePageComponent } from './Components/CommonComponents/Landing-Page/portfolio-home-page/portfolio-home-page.component';
 import { ContactUsHomePageComponent } from './Components/CommonComponents/Landing-Page/contact-us-home-page/contact-us-home-page.component';
 import { BlogComponent } from './Components/Pages/blog/blog.component';
+import { BlogLandingPageComponent } from './Components/CommonComponents/Landing-Page/blog-landing-page/blog-landing-page.component';
 
 
 @NgModule({
@@ -72,6 +73,7 @@ import { BlogComponent } from './Components/Pages/blog/blog.component';
     PortfolioHomePageComponent,
     ContactUsHomePageComponent,
     BlogComponent,
+    BlogLandingPageComponent,
  
   ],
   imports: [
