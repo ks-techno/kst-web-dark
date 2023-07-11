@@ -40,8 +40,8 @@ import { ContactUsHomePageComponent } from './Components/CommonComponents/Landin
 import { BlogComponent } from './Components/Pages/blog/blog.component';
 import { BlogLandingPageComponent } from './Components/CommonComponents/Landing-Page/blog-landing-page/blog-landing-page.component';
 import { JobsComponent } from './Components/Pages/jobs/jobs.component';
-import { FindJobsComponent } from './Components/Pages/Jobs/find-jobs/find-jobs.component';
-import { JobsGridComponent } from './Components/Pages/Jobs/jobs-grid/jobs-grid.component';
+import { JobsGridComponent } from './Components/Pages/jobs/jobs-grid/jobs-grid.component';
+import { FindJobsComponent } from './Components/Pages/jobs/find-jobs/find-jobs.component';
 
 
 @NgModule({
