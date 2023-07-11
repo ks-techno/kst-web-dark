@@ -57,6 +57,11 @@
     box-shadow: var(--btn-shadow-hover);
 }
 
+a{
+  color: white;
+  text-decoration: none; 
+}
+
 .float-center {
     max-width: 60%;
 }
