@@ -1,0 +1,210 @@
+.container {
+    background-color: var(--background-color);
+    padding-left: 90px;
+}
+
+
+.container-fluid {
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    color: #fff;
+}
+
+.btn-primary {
+    background: var(--secondary-color);
+    border-radius: 8px;
+    border: none;
+}
+
+.card {
+    border-radius: 8px;
+    width: 27rem;
+    border: 1px solid rgb(130, 130, 130) !important;
+    background-color: var(--background-color);
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-text {
+    color: #a5a5a5;
+}
+
+.card-body:hover .card-text{
+    color: #fff;
+}
+
+.card-subtitle {
+    color: #5EBE80;
+}
+
+.card:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-body:hover .card-subtitle {
+    color: #5EBE80;
+}
+
+.card-body:hover .btn-primary {
+    background-color: #5EBE80;
+}
+
+h6 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+}
+
+/* For x-small */
+@media only screen and (min-width:200px) and (max-width:400px) {
+    h1 {
+        font-size: 19px;
+    }
+
+    .card {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        font-size: 12px;
+    }
+
+    .btn-secondary {
+        font-size: 12px;
+
+    }
+    .container {
+        padding-left: 20px;
+    }
+}
+
+
+/* For small */
+@media only screen and (min-width:401px) and (max-width: 576px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        margin-top: 20px;
+        align-items: center !important;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .btn-secondary {
+        font-size: 15px;
+
+    }
+    .container {
+        padding-left: 40px;
+    }
+}
+
+
+/* For medium */
+@media only screen and (min-width:577px) and (max-width: 768px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    .card {
+        margin-top: 20px;
+        align-items: center !important;
+        width: 25rem;
+        font-size: 15px;
+    }
+
+    .btn-secondary {
+        font-size: 15px;
+
+    }
+    .container {
+        padding-left: 50px;
+    }
+
+}
+
+/* For Large*/
+@media only screen and (min-width:769px) and (max-width: 827px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    .card {
+        width: 20rem;
+        align-items: center !important;
+
+    }
+
+    .btn-secondary {
+        margin: auto !important;
+        display: flex !important;
+    }
+    .container {
+        padding-left: 0px;
+    }
+}
+
+
+/* For x-Large*/
+@media only screen and (min-width:828px) and (max-width: 992px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 20rem;
+        align-items: center !important;
+    }
+
+    .btn-secondary {
+        margin: auto !important;
+        display: flex !important;
+    }
+
+    .row {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .container {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 20rem;
+        align-items: center !important;
+    }
+
+    .btn-secondary {
+        margin: auto !important;
+        display: flex !important;
+    }
+
+    .row {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
