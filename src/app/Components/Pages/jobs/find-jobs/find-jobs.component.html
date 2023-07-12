@@ -1,1 +1,31 @@
-<p>find-jobs works!</p>
+<div class="container">
+    <div class="row d-flex">
+        <div class="col pt-3 ">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">What</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Job title, keywords, or company">
+                <div class="input-group-append">
+                    <span class="input-group-text icon"><fa-icon [icon]="jobs">
+                        </fa-icon></span>
+                </div>
+            </div>
+        </div>
+        <div class="col pt-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Where</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Lahore">
+                <div class="input-group-append">
+                    <span class="input-group-text icon"><fa-icon [icon]="locate">
+                        </fa-icon></span>
+                </div>
+            </div>
+        </div>
+        <div class="col pt-3">
+            <button type="button" class="btn btn-primary">Find Jobs</button>
+        </div>
+    </div>
+</div>

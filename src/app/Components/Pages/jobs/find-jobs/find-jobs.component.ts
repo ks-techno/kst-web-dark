@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faLocationDot, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-find-jobs',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./find-jobs.component.css']
 })
 export class FindJobsComponent {
-
+  jobs = faMagnifyingGlass;
+  locate = faLocationDot;
 }
